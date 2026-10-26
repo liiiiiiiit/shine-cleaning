@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="hy" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shine Cleaning — Պրոֆեսիոնալ մաքրում և քիմմաքրում Երևանում</title>
+  <meta name="description" content="Shine Cleaning - Տների, գրասենյակների, կոմերցիոն տարածքների մասնագիտական մաքրում և փափուկ կահույքի քիմմաքրում Երևանում: Հեռ. +374 77 442554" />
+  <meta property="og:title" content="Shine Cleaning — Պրոֆեսիոնալ մաքրում և քիմմաքրում" />
+  <meta property="og:description" content="Մասնագիտական մաքրում և քիմմաքրում (գրասենյակներ, տներ, առևտրային տարածքներ): +374 77 442554" />
+  <meta property="og:image" content="/assets/shine_cleaning_hero.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              200: '#99f6e4',
+              500: '#0d9488',
+              600: '#0f766e',
+              700: '#115e59',
+              800: '#134e4a',
+              900: '#042f2e',
+            },
+            primary: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#1e3a8a',
+              900: '#0f172a',
+            },
+            accent: {
+              500: '#10b981',
+              600: '#059669',
+            }
+          },
+          boxShadow: {
+            'glow': '0 10px 25px -5px rgba(13, 148, 136, 0.3)',
+            'float': '0 20px 35px -10px rgba(15, 23, 42, 0.15)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @keyframes pulseSlow {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.9; }
+    }
+    .animate-pulse-slow {
+      animation: pulseSlow 3s infinite ease-in-out;
+    }
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white font-sans flex flex-col min-h-screen">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <header class="bg-slate-900 text-slate-200 text-xs sm:text-sm py-2 px-4 border-b border-slate-800 z-50">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4 flex-wrap justify-center">
+        <span class="inline-flex items-center gap-1.5 text-teal-400 font-medium">
+          <span class="w-2 h-2 rounded-full bg-teal-400 animate-ping"></span>
+          <span data-i18n="top_bar_status">Ընդունում ենք պատվերներ Երևանում և մարզերում</span>
+        </span>
+        <span class="hidden md:inline text-slate-500">•</span>
+        <span class="hidden md:inline-flex items-center gap-1 text-slate-300">
+          <svg class="w-3.5 h-3.5 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span data-i18n="working_hours">Ամեն օր՝ 09:00 - 21:00</span>
+        </span>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a href="tel:+37477442554" class="hover:text-teal-300 font-semibold flex items-center gap-1 transition-colors">
+          <svg class="w-3.5 h-3.5 text-teal-400" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+          <span>+374 77 442554</span>
+        </a>
+        <div class="h-3 w-[1px] bg-slate-700"></div>
+        <div class="flex items-center gap-2.5">
+          <a href="https://t.me/+37477442554" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 transition-colors" title="Telegram">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+          </a>
+          <a href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-emerald-400 transition-colors" title="WhatsApp">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN NAVIGATION BAR WITH 3-LANGUAGE SWITCHER -->
+  <nav class="sticky top-0 z-40 glass-nav border-b border-slate-200/80 transition-all shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-teal-600 to-teal-800 text-white flex items-center justify-center shadow-md shadow-teal-700/20 group-hover:scale-105 transition-transform">
+          <svg class="w-6 h-6 text-teal-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+          </svg>
+        </div>
+        <div>
+          <span class="font-serif text-2xl font-bold tracking-tight text-slate-900 group-hover:text-teal-700 transition-colors">
+            Shine
+          </span>
+          <span class="block text-[10px] tracking-[0.25em] font-bold uppercase text-teal-600 -mt-1">
+            CLEANING
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <div class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-600">
+        <a href="#services" class="hover:text-teal-600 transition-colors" data-i18n="nav_services">Ծառայություններ</a>
+        <a href="#process" class="hover:text-teal-600 transition-colors" data-i18n="nav_process">Ինչպես ենք աշխատում</a>
+        <a href="#why-us" class="hover:text-teal-600 transition-colors" data-i18n="nav_why_us">Ինչու մենք</a>
+        <a href="#about" class="hover:text-teal-600 transition-colors" data-i18n="nav_about">Մեր մասին</a>
+        <a href="#contact" class="hover:text-teal-600 transition-colors" data-i18n="nav_contact">Կապ</a>
+      </div>
+
+      <!-- Right Action Area: Language Switcher + Call CTA -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        
+        <!-- 3-Language Toggle Switcher: Armenian, Russian, English -->
+        <div class="inline-flex p-1 bg-slate-100 rounded-lg border border-slate-200 text-xs font-semibold shadow-inner" id="lang-switcher">
+          <button type="button" onclick="setLanguage('hy')" data-lang-btn="hy" class="px-2.5 py-1 rounded-md transition-all font-medium bg-teal-600 text-white shadow-sm">
+            ՀԱՅ
+          </button>
+          <button type="button" onclick="setLanguage('ru')" data-lang-btn="ru" class="px-2.5 py-1 rounded-md transition-all font-medium text-slate-600 hover:text-slate-900">
+            РУС
+          </button>
+          <button type="button" onclick="setLanguage('en')" data-lang-btn="en" class="px-2.5 py-1 rounded-md transition-all font-medium text-slate-600 hover:text-slate-900">
+            ENG
+          </button>
+        </div>
+
+        <!-- Call Now Button -->
+        <a href="tel:+37477442554" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-teal-600 text-white text-sm font-semibold hover:bg-teal-700 shadow-md shadow-teal-600/20 active:scale-95 transition-all">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+          <span data-i18n="cta_call">Զանգահարել</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" type="button" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle Navigation">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white/95 backdrop-blur-md px-4 pt-3 pb-6 space-y-3">
+      <a href="#services" class="block py-2 text-base font-medium text-slate-700 hover:text-teal-600" onclick="toggleMobileMenu()" data-i18n="nav_services">Ծառայություններ</a>
+      <a href="#process" class="block py-2 text-base font-medium text-slate-700 hover:text-teal-600" onclick="toggleMobileMenu()" data-i18n="nav_process">Ինչպես ենք աշխատում</a>
+      <a href="#why-us" class="block py-2 text-base font-medium text-slate-700 hover:text-teal-600" onclick="toggleMobileMenu()" data-i18n="nav_why_us">Ինչու մենք</a>
+      <a href="#about" class="block py-2 text-base font-medium text-slate-700 hover:text-teal-600" onclick="toggleMobileMenu()" data-i18n="nav_about">Մեր մասին</a>
+      <a href="#contact" class="block py-2 text-base font-medium text-slate-700 hover:text-teal-600" onclick="toggleMobileMenu()" data-i18n="nav_contact">Կապ</a>
+      <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
+        <a href="tel:+37477442554" class="w-full flex items-center justify-center gap-2 py-3 bg-teal-600 text-white rounded-xl font-semibold shadow-sm">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+          <span>+374 77 442554</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="relative overflow-hidden pt-8 pb-16 md:pt-14 md:pb-24 bg-gradient-to-b from-teal-50/50 via-white to-slate-50">
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(#0d9488_1px,transparent_1px)] [background-size:24px_24px] opacity-[0.07]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-100/80 border border-teal-200 text-teal-800 text-xs sm:text-sm font-semibold shadow-sm">
+            <span class="flex h-2 w-2 rounded-full bg-teal-600"></span>
+            <span data-i18n="hero_badge">Պաշտոնական մասնագիտացված ծառայություն</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.18]">
+            <span data-i18n="hero_title_1">Մասնագիտական մաքրում և քիմմաքրում</span>
+            <span class="block text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-teal-800" data-i18n="hero_title_2">
+              (գրասենյակներ, տներ, առևտրային տարածքներ)
+            </span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed" data-i18n="hero_description">
+            Shine Cleaning-ը տրամադրում է բարձրակարգ մաքրման ծառայություններ Երևանում և մարզերում: Ժամանակակից գերմանական Kärcher տեխնիկա, հակաալերգիկ էկո-նյութեր, փորձառու թիմ և 100% որակի երաշխիք:
+          </p>
+
+          <!-- Direct CTA Buttons -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
+            <!-- WhatsApp Primary CTA -->
+            <a id="hero-wa-btn" href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-base shadow-lg shadow-emerald-600/30 active:scale-95 transition-all">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+              <span data-i18n="hero_cta_wa">Պատվիրել WhatsApp-ով</span>
+            </a>
+
+            <!-- Call Now CTA -->
+            <a href="tel:+37477442554" class="flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-base shadow-lg shadow-slate-900/20 active:scale-95 transition-all">
+              <svg class="w-5 h-5 text-teal-400" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+              <span data-i18n="hero_cta_call">Զանգահարել հիմա</span>
+            </a>
+
+            <!-- View Services link -->
+            <a href="#services" class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-700 font-semibold hover:border-teal-500 hover:text-teal-700 transition-colors shadow-sm">
+              <span data-i18n="hero_cta_services">Ծառայություններ</span>
+            </a>
+          </div>
+
+          <!-- Highlight metrics -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-200">
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-slate-900">5,000+</p>
+              <p class="text-xs sm:text-sm text-slate-500 font-medium" data-i18n="metric_cleans">Մաքրված տարածքներ</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-teal-700">100%</p>
+              <p class="text-xs sm:text-sm text-slate-500 font-medium" data-i18n="metric_guarantee">Որակի երաշխիք</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-slate-900">60 րոպե</p>
+              <p class="text-xs sm:text-sm text-slate-500 font-medium" data-i18n="metric_arrival">Արագ արձագանքում</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual: Related Clean Team Image -->
+        <div class="lg:col-span-5 relative">
+          
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <div class="absolute -inset-2 bg-gradient-to-r from-teal-500 to-sky-600 rounded-3xl blur-xl opacity-20 transform -rotate-1"></div>
+
+            <div class="relative bg-white p-3 rounded-2xl shadow-float border border-slate-200 overflow-hidden">
+              <div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-100 group">
+                <img 
+                  src="/assets/shine_cleaning_hero.jpg" 
+                  alt="Shine Cleaning Professional Team at Work" 
+                  class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  loading="eager"
+                />
+
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-transparent to-black/10 pointer-events-none"></div>
+
+                <!-- Floating top badge -->
+                <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1.5 rounded-full shadow-md text-xs font-bold text-slate-800 flex items-center gap-1.5 border border-white">
+                  <span class="w-2 h-2 rounded-full bg-teal-500"></span>
+                  <span>Kärcher Professional Equipment</span>
+                </div>
+
+                <!-- Bottom badge on image -->
+                <div class="absolute bottom-4 left-4 right-4 text-white">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="px-2 py-0.5 rounded bg-teal-600/90 text-[11px] font-bold uppercase tracking-wider">Shine Team</span>
+                    <span class="text-xs text-slate-200">Երևան և մարզեր</span>
+                  </div>
+                  <p class="text-sm font-semibold text-white drop-shadow-sm" data-i18n="hero_img_caption">
+                    Բազմոցների քիմմաքրում, հատակի փայլեցում և ապակիների լվացում
+                  </p>
+                </div>
+              </div>
+
+              <!-- Quick action banner underneath picture -->
+              <div class="mt-3 p-3 bg-teal-50/70 rounded-xl border border-teal-100 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                  </div>
+                  <div>
+                    <p class="text-xs text-slate-500 font-medium" data-i18n="flyer_badge_sub">Հարցրեք մեզ ուղիղ Telegram-ում</p>
+                    <p class="text-sm font-bold text-slate-900">+374 77 442554</p>
+                  </div>
+                </div>
+                <a href="https://t.me/+37477442554" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-sky-500 hover:bg-sky-600 text-white text-xs font-bold shadow-sm transition-colors">
+                  Telegram ↗
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP / BRAND VALUE PROPOSITION -->
+  <section class="py-8 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
+        
+        <div class="flex flex-col md:flex-row items-center gap-3.5">
+          <div class="w-12 h-12 rounded-2xl bg-teal-100/70 text-teal-700 flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm" data-i18n="trust_title_1">100% Ապահով & Երաշխավորված</h4>
+            <p class="text-xs text-slate-500" data-i18n="trust_desc_1">Գույքի անվտանգության լիարժեք երաշխիք</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row items-center gap-3.5">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-100/70 text-emerald-700 flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04M12 21.482a12.025 12.025 0 008.618-3.04A12.02 12.02 0 0021 9c0-1.042-.133-2.052-.382-3.016M3 9c0 1.042.133 2.052.382 3.016m0 0a12.025 12.025 0 008.618 9.466"/></svg>
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm" data-i18n="trust_title_2">Էկո & Հակաալերգիկ Նյութեր</h4>
+            <p class="text-xs text-slate-500" data-i18n="trust_desc_2">Անվտանգ երեխաների և կենդանիների համար</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row items-center gap-3.5">
+          <div class="w-12 h-12 rounded-2xl bg-sky-100/70 text-sky-700 flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm" data-i18n="trust_title_3">Գերմանական Տեխնիկա</h4>
+            <p class="text-xs text-slate-500" data-i18n="trust_desc_3">Kärcher պրոֆեսիոնալ սարքավորումներ</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row items-center gap-3.5">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100/70 text-amber-700 flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm" data-i18n="trust_title_4">Արագ & Ճշտապահ</h4>
+            <p class="text-xs text-slate-500" data-i18n="trust_desc_4">Աշխատում ենք 7 օր, առանց հանգստյան</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION (All prices removed) -->
+  <section id="services" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="inline-block px-3 py-1 text-xs font-bold tracking-wider uppercase text-teal-700 bg-teal-100 rounded-full" data-i18n="services_tag">
+          Մեր Ծառայությունները
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight" data-i18n="services_heading">
+          Մասնագիտական մաքրման ծառայություններ
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg" data-i18n="services_subheading">
+          Տրամադրում ենք բոլոր տեսակի մաքրման և քիմմաքրման աշխատանքներ՝ օգտագործելով ժամանակակից տեխնոլոգիաներ և հատուկ նյութեր:
+        </p>
+      </div>
+
+      <!-- Services Grid (6 Clean Cards without any prices) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Service 1: Home & Apartment Cleaning -->
+        <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv1_title">Տների և բնակարանների գլխավոր մաքրում</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv1_desc">
+              Սենյակների, խոհանոցի, սանհանգույցի մանրակրկիտ մաքրում, ախտահանում, փոշեհանում և բոլոր մակերեսների փայլեցում:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv1_f1">Խոհանոցի և տեխնիկայի յուղազերծում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv1_f2">Սանհանգույցների խորքային ախտահանում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv1_f3">Հատակի մաքրում և պաշտպանիչ շերտ</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_custom">Անհատական մոտեցում</span>
+            <button onclick="prefillBooking('home')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              <span data-i18n="book_service">Պատվիրել</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 2: Sofa & Upholstery Dry Cleaning -->
+        <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-teal-500/40 relative flex flex-col justify-between group">
+          <div class="absolute -top-3 right-6 bg-teal-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm" data-i18n="badge_popular">
+            Ամենապահանջված
+          </div>
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv2_title">Փափուկ կահույքի և բազմոցների քիմմաքրում</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv2_desc">
+              Խորքային էքստրակտորային մաքրում անմիջապես ձեր տանը: Հեռացնում ենք հետքերը, կեղտը, տհաճ հոտերը և տիզերը:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv2_f1">Բազմոցներ, բազկաթոռներ, ներքնակներ</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv2_f2">Համառ հետքերի և հոտերի չեզոքացում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv2_f3">Արագ չորացում (3-5 ժամում)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_express">Տեղում մաքրում</span>
+            <button onclick="prefillBooking('furniture')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              <span data-i18n="book_service">Պատվիրել</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 3: Office & Commercial -->
+        <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv3_title">Գրասենյակներ և առևտրային տարածքներ</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv3_desc">
+              Պարբերական և գլխավոր մաքրում բիզնես կենտրոնների, բանկերի, խանութների, ռեստորանների և գրասենյակների համար:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv3_f1">Աշխատանք ոչ աշխատանքային ժամերին</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv3_f2">Պայմանագրային և անկանխիկ վճարում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv3_f3">Անհատական սպասարկման փաթեթներ</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_contract">Պայմանագրային</span>
+            <button onclick="prefillBooking('office')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              <span data-i18n="book_service">Պատվիրել</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 4: Post-renovation Cleaning -->
+        <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv4_title">Վերանորոգումից հետո խորքային մաքրում</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv4_desc">
+              Շինարարական փոշու, ցեմենտի, ներկի և սոսնձի մնացորդների հեռացում արդյունաբերական փոշեկուլներով և լուծույթներով:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv4_f1">Շինարարական մանր փոշու լրիվ վերացում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv4_f2">Սալիկների և կարանների մաքրում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv4_f3">Ամբողջական պատրաստում բնակվելու</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_deep">Խորքային մաքրում</span>
+            <button onclick="prefillBooking('renovation')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              <span data-i18n="book_service">Պատվիրել</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 5: Window & Facade Cleaning -->
+        <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v14a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 12h16M12 4v16"/></svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv5_title">Պատուհանների և վիտրաժների լվացում</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv5_desc">
+              Պատուհանների, պատշգամբների ապակիների, ցուցափեղկերի և ճակատների անթերի լվացում առանց շերտերի և հետքերի:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv5_f1">Երկկողմանի մաքրում և շրջանակներ</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv5_f2">Գոլորշիով և հակաստատիկ միջոցներով</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv5_f3">Բարձրահարկ շենքերի վիտրաժներ</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_streakfree">Անթերի փայլ</span>
+            <button onclick="prefillBooking('windows')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              <span data-i18n="book_service">Պատվիրել</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 6: Carpet & Floor Scrubbing -->
+        <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv6_title">Գորգերի քիմմաքրում & Հատակների փայլեցում</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv6_desc">
+              Խորքային քիմմաքրում պրոֆեսիոնալ ռոտորային մեքենայով, բնական փայլի վերականգնում և կեղտապաշտպան շերտի հաղորդում:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv6_f1">Մարմարի, գրանիտի, սալիկի մշակում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv6_f2">Գորգերի խորքային լվացում տեղում</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span data-i18n="srv6_f3">Տհաճ հոտերի և բակտերիաների վերացում</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_eco">Էկո-մաքրում</span>
+            <button onclick="prefillBooking('carpet')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              <span data-i18n="book_service">Պատվիրել</span> &rarr;
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW WE WORK / 4-STEP STREAMLINED PROCESS -->
+  <section id="process" class="py-20 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="inline-block px-3 py-1 text-xs font-bold tracking-wider uppercase text-teal-700 bg-teal-100 rounded-full" data-i18n="process_tag">
+          Հստակ Գործընթաց
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight" data-i18n="process_heading">
+          Ինչպես ենք մենք աշխատում
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg" data-i18n="process_subheading">
+          Հեշտ, արագ և առանց ավելորդ անհանգստության. 4 պարզ քայլ մաքուր և փայլուն տարածք ունենալու համար:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Step 1 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 relative group hover:bg-teal-50/50 hover:border-teal-300 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-teal-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-md shadow-teal-600/20">
+            01
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="step1_title">Հայտ կամ Զանգ</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="step1_desc">
+            Կապվեք մեզ հետ հեռախոսով, WhatsApp-ով կամ Telegram-ով և նշեք ձեր տարածքը:
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 relative group hover:bg-teal-50/50 hover:border-teal-300 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-teal-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-md shadow-teal-600/20">
+            02
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="step2_title">Անվճար Խորհրդատվություն</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="step2_desc">
+            Ճշտում ենք աշխատանքի մանրամասները, ձեզ հարմար օրն ու ժամը:
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 relative group hover:bg-teal-50/50 hover:border-teal-300 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-teal-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-md shadow-teal-600/20">
+            03
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="step3_title">Պրոֆեսիոնալ Մաքրում</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="step3_desc">
+            Մեր թիմը ժամանում է Kärcher սարքավորումներով և էկոլոգիապես անվտանգ նյութերով:
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 relative group hover:bg-teal-50/50 hover:border-teal-300 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-teal-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-md shadow-teal-600/20">
+            04
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2" data-i18n="step4_title">Որակի Ընդունում</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="step4_desc">
+            Դուք ստուգում եք կատարված աշխատանքը և միայն գոհ մնալուց հետո կատարում վճարումը:
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Quick Action Box inside Process -->
+      <div class="mt-12 p-6 sm:p-8 rounded-3xl bg-slate-900 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+        <div class="space-y-1 text-center md:text-left">
+          <h4 class="text-xl font-bold" data-i18n="process_cta_title">Ունե՞ք հարցեր կամ ցանկանո՞ւմ եք պատվիրել</h4>
+          <p class="text-slate-400 text-sm" data-i18n="process_cta_desc">Մեր մասնագետները պատրաստ են օգնել ձեզ ամեն օր 09:00-ից 21:00-ն:</p>
+        </div>
+        <div class="flex items-center gap-3 flex-wrap justify-center">
+          <a href="tel:+37477442554" class="px-5 py-3 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-sm font-bold flex items-center gap-2 transition-all">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+            <span>+374 77 442554</span>
+          </a>
+          <a href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold flex items-center gap-2 transition-all">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US / TRUST & ADVANTAGES -->
+  <section id="why-us" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Advantage Highlights -->
+        <div class="lg:col-span-6 space-y-6">
+          <span class="inline-block px-3 py-1 text-xs font-bold tracking-wider uppercase text-teal-700 bg-teal-100 rounded-full" data-i18n="why_tag">
+            Ինչու Shine Cleaning
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight" data-i18n="why_heading">
+            Ձեր տարածքի մաքրությունը վստահեք պրոֆեսիոնալներին
+          </h2>
+          <p class="text-slate-600 text-base leading-relaxed" data-i18n="why_desc">
+            Մենք հասկանում ենք, թե որքան կարևոր է մաքրությունը, հիգիենան և առողջ մթնոլորտը ձեր տանը կամ աշխատավայրում: Յուրաքանչյուր պատվեր իրականացվում է հատուկ պատասխանատվությամբ:
+          </p>
+
+          <div class="space-y-4 pt-2">
+            
+            <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/80 shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center flex-shrink-0 font-bold">1</div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm sm:text-base" data-i18n="why1_title">Որակյալ և ստուգված անձնակազմ</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-1" data-i18n="why1_desc">Մեր բոլոր աշխատակիցներն ունեն մասնագիտական վերապատրաստում և կոկիկ արտահագուստ:</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/80 shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center flex-shrink-0 font-bold">2</div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm sm:text-base" data-i18n="why2_title">Անվնաս քիմիական նյութեր</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-1" data-i18n="why2_desc">Օգտագործում ենք եվրոպական հավաստագրված միջոցներ, որոնք անվտանգ են երեխաների և ընտանի կենդանիների համար:</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/80 shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center flex-shrink-0 font-bold">3</div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm sm:text-base" data-i18n="why3_title">Արդյունքի երաշխիք կամ անվճար վերամաքրում</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-1" data-i18n="why3_desc">Եթե որևէ դետալից դժգոհ մնաք, մեր թիմը տեղում անվճար կշտկի բոլոր թերությունները:</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Official Business Info Box -->
+        <div class="lg:col-span-6" id="about">
+          <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-lg relative overflow-hidden">
+            
+            <div class="flex items-center justify-between pb-6 border-b border-slate-100">
+              <div>
+                <span class="text-xs font-bold text-teal-600 uppercase tracking-wider" data-i18n="flyer_card_subtitle">Պաշտոնական տվյալներ</span>
+                <h3 class="text-xl font-bold text-slate-900">Shine Cleaning Armenia</h3>
+              </div>
+              <div class="px-3 py-1 bg-teal-50 border border-teal-200 text-teal-700 rounded-full text-xs font-semibold">
+                Verified Business
+              </div>
+            </div>
+
+            <!-- Team Image Preview -->
+            <div class="my-6 p-4 bg-slate-50 rounded-2xl border border-slate-200 flex flex-col sm:flex-row items-center gap-4">
+              <img 
+                src="/assets/shine_cleaning_hero.jpg" 
+                alt="Shine Cleaning Crew" 
+                class="w-28 h-24 object-cover rounded-xl shadow-sm border border-slate-200 flex-shrink-0"
+              />
+              <div class="space-y-1.5 text-center sm:text-left">
+                <h4 class="text-sm font-bold text-slate-900" data-i18n="about_team_title">Մեր Պրոֆեսիոնալ Թիմը</h4>
+                <p class="text-xs text-slate-500 leading-relaxed" data-i18n="about_team_desc">
+                  Համալրված նորագույն սարքավորումներով, էկոլոգիապես մաքուր նյութերով և բազմամյա փորձով:
+                </p>
+                <div class="pt-1 flex items-center justify-center sm:justify-start gap-2 text-xs font-semibold text-teal-700">
+                  <span>✓ Գերմանական Kärcher</span>
+                  <span>•</span>
+                  <span>✓ 100% Որակ</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Direct Messenger Channels -->
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <a href="https://t.me/+37477442554" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 p-3 rounded-xl bg-slate-50 hover:bg-sky-50 border border-slate-200 hover:border-sky-300 text-slate-700 hover:text-sky-600 transition-all text-xs font-semibold">
+                <svg class="w-5 h-5 fill-current text-sky-500" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+                <span>Telegram Chat</span>
+              </a>
+
+              <a href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 p-3 rounded-xl bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-300 text-slate-700 hover:text-emerald-600 transition-all text-xs font-semibold">
+                <svg class="w-5 h-5 fill-current text-emerald-600" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+                <span>WhatsApp Chat</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CUSTOMER REVIEWS & FEEDBACK -->
+  <section class="py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16 space-y-2">
+        <span class="inline-block px-3 py-1 text-xs font-bold tracking-wider uppercase text-teal-700 bg-teal-100 rounded-full" data-i18n="reviews_tag">
+          Հաճախորդների Կարծիքները
+        </span>
+        <h2 class="text-3xl font-extrabold text-slate-900" data-i18n="reviews_heading">
+          Ինչ են ասում մեր հաճախորդները
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base" data-i18n="reviews_subheading">
+          Բարձր գնահատական Երևանի հարյուրավոր ընտանիքների և ընկերությունների կողմից:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Review 1 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4">
+          <div class="flex items-center gap-1 text-amber-400">
+            ★★★★★
+          </div>
+          <p class="text-sm text-slate-700 leading-relaxed italic" data-i18n="rev1_text">
+            «Պատվիրել էի բազմոցի քիմմաքրում և տան գլխավոր մաքրում: Բազմոցի վրայի հին սուրճի հետքերը ամբողջությամբ անհետացան: Հրաշալի սարքավորումներ ունեն: Շատ շնորհակալ եմ Shine թիմին»:
+          </p>
+          <div class="flex items-center gap-3 pt-2 border-t border-slate-200">
+            <div class="w-9 h-9 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-xs">
+              ԱՍ
+            </div>
+            <div>
+              <p class="text-xs font-bold text-slate-900">Անահիտ Սարգսյան</p>
+              <p class="text-[11px] text-slate-500">Երևան, Արաբկիր</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4">
+          <div class="flex items-center gap-1 text-amber-400">
+            ★★★★★
+          </div>
+          <p class="text-sm text-slate-700 leading-relaxed italic" data-i18n="rev2_text">
+            «Գրասենյակի մաքրում ենք պատվիրում արդեն 6 ամիս: Ամեն ինչ կատարվում է ճշտապահ, ոչ աշխատանքային ժամերին, առանց մեր թիմին խանգարելու: Իսկական պրոֆեսիոնալներ»:
+          </p>
+          <div class="flex items-center gap-3 pt-2 border-t border-slate-200">
+            <div class="w-9 h-9 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-xs">
+              ԱԳ
+            </div>
+            <div>
+              <p class="text-xs font-bold text-slate-900">Արմեն Գևորգյան</p>
+              <p class="text-[11px] text-slate-500">Տնօրեն, IT Ընկերություն (Կենտրոն)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4">
+          <div class="flex items-center gap-1 text-amber-400">
+            ★★★★★
+          </div>
+          <p class="text-sm text-slate-700 leading-relaxed italic" data-i18n="rev3_text">
+            «Վերանորոգումից հետո բնակարանը մաքրելու համար դիմեցինք Shine Cleaning-ին: Շինարարական փոշուց հետք անգամ չմնաց: Պատուհաններն ու սալիկները փայլում են: Խորհուրդ եմ տալիս բոլորին»:
+          </p>
+          <div class="flex items-center gap-3 pt-2 border-t border-slate-200">
+            <div class="w-9 h-9 rounded-full bg-teal-700 text-white flex items-center justify-center font-bold text-xs">
+              ՄՄ
+            </div>
+            <div>
+              <p class="text-xs font-bold text-slate-900">Մարիամ Մարտիրոսյան</p>
+              <p class="text-[11px] text-slate-500">Երևան, Դավթաշեն</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- QUICK BOOKING & CONTACT FORM SECTION -->
+  <section id="contact" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-teal-600/10 blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-sky-600/10 blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-block px-3 py-1 text-xs font-bold tracking-wider uppercase text-teal-300 bg-teal-900/60 border border-teal-700/50 rounded-full" data-i18n="contact_tag">
+          Հետադարձ Կապ
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 tracking-tight" data-i18n="contact_heading">
+          Պատվիրեք մաքրում կամ ստացեք խորհրդատվություն
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3 leading-relaxed" data-i18n="contact_subheading">
+          Մենք արձագանքում ենք անմիջապես: Կապ հաստատեք հեռախոսով, WhatsApp-ով կամ Telegram-ով:
+        </p>
+      </div>
+
+      <!-- Direct Action Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        
+        <!-- Direct Phone Call Card -->
+        <a href="tel:+37477442554" class="flex flex-col items-center text-center p-7 rounded-3xl bg-slate-800/90 hover:bg-slate-800 border border-slate-700/80 hover:border-teal-500/60 transition-all duration-300 group shadow-xl">
+          <div class="w-16 h-16 rounded-2xl bg-teal-500/20 text-teal-400 flex items-center justify-center group-hover:scale-110 transition-transform mb-5">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+          </div>
+          <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1" data-i18n="contact_phone_label">Անմիջական զանգ</p>
+          <p class="text-xl font-bold text-white tracking-wide mb-4">+374 77 442554</p>
+          <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-teal-600/20 text-teal-300 text-xs font-bold group-hover:bg-teal-600 group-hover:text-white transition-all">
+            <span data-i18n="cta_call">Զանգահարել</span> &rarr;
+          </span>
+        </a>
+
+        <!-- WhatsApp Chat Card -->
+        <a href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center text-center p-7 rounded-3xl bg-slate-800/90 hover:bg-slate-800 border border-slate-700/80 hover:border-emerald-500/60 transition-all duration-300 group shadow-xl">
+          <div class="w-16 h-16 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center group-hover:scale-110 transition-transform mb-5">
+            <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+          </div>
+          <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">WhatsApp</p>
+          <p class="text-xl font-bold text-white tracking-wide mb-4">+374 77 442554</p>
+          <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-600/20 text-emerald-300 text-xs font-bold group-hover:bg-emerald-600 group-hover:text-white transition-all">
+            <span>WhatsApp Չաթ</span> &rarr;
+          </span>
+        </a>
+
+        <!-- Telegram Card -->
+        <a href="https://t.me/+37477442554" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center text-center p-7 rounded-3xl bg-slate-800/90 hover:bg-slate-800 border border-slate-700/80 hover:border-sky-500/60 transition-all duration-300 group shadow-xl">
+          <div class="w-16 h-16 rounded-2xl bg-sky-500/20 text-sky-400 flex items-center justify-center group-hover:scale-110 transition-transform mb-5">
+            <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+          </div>
+          <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Telegram</p>
+          <p class="text-xl font-bold text-white tracking-wide mb-4">+374 77 442554</p>
+          <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-sky-500/20 text-sky-300 text-xs font-bold group-hover:bg-sky-500 group-hover:text-white transition-all">
+            <span>Telegram Չաթ</span> &rarr;
+          </span>
+        </a>
+
+      </div>
+
+      <!-- Address & Working Hours Banner -->
+      <div class="p-6 rounded-2xl bg-slate-800/60 border border-slate-700/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-300 text-center sm:text-left">
+        <div class="flex items-center gap-2">
+          <span class="text-teal-400 text-base">📍</span>
+          <span data-i18n="address_val">Երևան, Հայաստան (Սպասարկում ենք Երևանի բոլոր համայնքներում և հարակից մարզերում)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-teal-400 text-base">⏰</span>
+          <span data-i18n="hours_val">Աշխատանքային ժամեր՝ Ամեն օր, 09:00 - 21:00</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="inline-block px-3 py-1 text-xs font-bold tracking-wider uppercase text-teal-700 bg-teal-100 rounded-full" data-i18n="faq_tag">
+          Հաճախ տրվող հարցեր
+        </span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-2" data-i18n="faq_heading">
+          Ամեն ինչ մեր ծառայությունների մասին
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200/80 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span data-i18n="faq1_q">Պետք է արդյո՞ք տրամադրել մաքրող նյութեր կամ գործիքներ:</span>
+            <span class="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="faq1_a">
+            Ոչ, Shine Cleaning-ի թիմը գալիս է իր հետ բերելով բոլոր անհրաժեշտ պրոֆեսիոնալ գերմանական սարքավորումները (Kärcher) և մասնագիտական հավաստագրված մաքրող նյութերը: Ձեզանից պահանջվում է միայն ապահովել մուտք դեպի ջուր և էլեկտրականություն:
+          </p>
+        </details>
+
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200/80 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span data-i18n="faq2_q">Որքա՞ն ժամանակ է պահանջվում բազմոցի քիմմաքրումից հետո լրիվ չորանալու համար:</span>
+            <span class="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="faq2_a">
+            Շնորհիվ հզոր էքստրակտորային սարքավորման, խոնավության 90%-ը միանգամից հետ է քաշվում: Սենյակային ջերմաստիճանում կահույքը լիովին չորանում է ընդամենը 3-5 ժամում:
+          </p>
+        </details>
+
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200/80 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span data-i18n="faq3_q">Սպասարկո՞ւմ եք արդյոք Երևանից դուրս՝ մարզերում:</span>
+            <span class="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="faq3_a">
+            Այո, մենք սպասարկում ենք ինչպես Երևանի բոլոր համայնքներում (անվճար ժամանում), այնպես էլ Կոտայքի, Արարատի, Արմավիրի և այլ մարզերի առանձնատներում ու կոմերցիոն օբյեկտներում:
+          </p>
+        </details>
+
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200/80 cursor-pointer">
+          <summary class="flex justify-between items-center font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span data-i18n="faq4_q">Ինչպե՞ս է կատարվում վճարումը:</span>
+            <span class="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="faq4_a">
+            Վճարումը կատարվում է աշխատանքն ավարտելուց և ձեր կողմից որակն ընդունելուց հետո: Ընդունում ենք կանխիկ, քարտային փոխանցումներ (Idram, Telcell, Visa/Mastercard) և բանկային անկանխիկ փոխանցումներ ընկերությունների համար:
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-xs sm:text-sm mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800">
+        
+        <!-- Brand Info -->
+        <div class="space-y-4 md:col-span-1">
+          <a href="#" class="inline-flex items-center gap-2.5">
+            <div class="w-9 h-9 rounded-xl bg-teal-600 text-white flex items-center justify-center font-bold">
+              ✦
+            </div>
+            <div>
+              <span class="font-serif text-xl font-bold tracking-tight text-white">Shine</span>
+              <span class="block text-[9px] tracking-[0.25em] font-bold uppercase text-teal-400 -mt-1">CLEANING</span>
+            </div>
+          </a>
+          <p class="text-xs text-slate-400 leading-relaxed" data-i18n="footer_bio">
+            Մասնագիտական մաքրում և քիմմաքրում տների, գրասենյակների և առևտրային տարածքների համար Երևանում:
+          </p>
+          <p class="text-xs text-teal-400 font-semibold">
+            📞 +374 77 442554
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white" data-i18n="footer_col_services">Ծառայություններ</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#services" class="hover:text-teal-400 transition-colors" data-i18n="srv1_title">Տների և բնակարանների մաքրում</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition-colors" data-i18n="srv2_title">Կահույքի և բազմոցի քիմմաքրում</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition-colors" data-i18n="srv3_title">Գրասենյակների մաքրում</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition-colors" data-i18n="srv4_title">Վերանորոգումից հետո մաքրում</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition-colors" data-i18n="srv5_title">Պատուհանների լվացում</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Messengers -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white" data-i18n="footer_col_socials">Մեսենջերներ</h4>
+          <ul class="space-y-2 text-xs">
+            <li>
+              <a href="https://t.me/+37477442554" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 flex items-center gap-1.5 transition-colors">
+                <span>✈️ Telegram (+374 77 442554)</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 flex items-center gap-1.5 transition-colors">
+                <span>💬 WhatsApp (+374 77 442554)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Working Hours & Location -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white" data-i18n="footer_col_contacts">Կոնտակտներ</h4>
+          <div class="space-y-1.5 text-xs">
+            <p class="text-slate-300">Երևան, Հայաստան</p>
+            <p class="text-slate-300" data-i18n="working_hours">Ամեն օր՝ 09:00 - 21:00</p>
+            <p class="text-slate-300">Թեժ գիծ՝ <a href="tel:+37477442554" class="text-teal-400 font-bold hover:underline">+374 77 442554</a></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+        <p>&copy; <span id="copyright-year">2026</span> Shine Cleaning. <span data-i18n="all_rights_reserved">Բոլոր իրավունքները պաշտպանված են:</span></p>
+        <p class="text-slate-600">Pure HTML5, Tailwind CSS & Vanilla JS • Ready for Vercel</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FLOATING STICKY WHATSAPP BUTTON -->
+  <aside aria-label="Quick WhatsApp Contact" class="fixed bottom-6 right-6 z-50 flex items-center group">
+    <div class="hidden sm:block mr-3 bg-slate-900/90 backdrop-blur-md text-white text-xs font-semibold py-1.5 px-3 rounded-xl shadow-lg border border-slate-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
+      <span data-i18n="floating_wa_tooltip">Գրեք մեզ WhatsApp-ով</span> 💬
+    </div>
+    <a 
+      id="floating-wa-link" 
+      href="https://wa.me/37477442554" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-xl hover:shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 relative"
+      aria-label="Chat on WhatsApp"
+    >
+      <span class="absolute -inset-1 rounded-full bg-emerald-500/40 animate-ping -z-10"></span>
+      <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+    </a>
+  </aside>
+
+  <!-- MOBILE BOTTOM STICKY BAR (Cleaned of calculator) -->
+  <div class="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 py-2.5 flex items-center justify-around gap-3 shadow-2xl">
+    <a href="tel:+37477442554" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-900 text-white text-xs font-bold">
+      <svg class="w-4 h-4 text-teal-400" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+      <span data-i18n="mob_call">Զանգահարել</span>
+    </a>
+    <a href="https://wa.me/37477442554" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-600 text-white text-xs font-bold">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.58 20.17 9.17 19.78 7.94 19.05L7.64 18.87L4.52 19.69L5.35 16.65L5.15 16.33C4.35 15.06 3.8 13.51 3.8 11.92C3.8 7.37 7.51 3.67 12.05 3.67M9.05 6.94C8.88 6.94 8.61 7 8.38 7.25C8.15 7.5 7.5 8.11 7.5 9.34C7.5 10.57 8.4 11.75 8.52 11.92C8.65 12.08 10.28 14.6 12.8 15.68C14.9 16.59 15.33 16.41 15.78 16.37C16.24 16.33 17.25 15.77 17.46 15.19C17.67 14.61 17.67 14.11 17.6 14C17.54 13.9 17.38 13.84 17.13 13.72C16.88 13.59 15.66 12.99 15.43 12.91C15.21 12.83 15.04 12.78 14.88 13.03C14.71 13.28 14.24 13.84 14.1 14C13.95 14.17 13.81 14.19 13.56 14.06C13.31 13.94 12.51 13.68 11.56 12.83C10.82 12.17 10.32 11.36 10.18 11.11C10.03 10.86 10.16 10.73 10.29 10.6C10.4 10.49 10.54 10.31 10.66 10.17C10.79 10.03 10.83 9.93 10.91 9.76C11 9.6 10.95 9.45 10.89 9.33C10.83 9.21 10.34 8 10.13 7.5C9.93 7.02 9.72 7.08 9.56 7.07C9.41 7.07 9.24 6.94 9.05 6.94Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://t.me/+37477442554" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-sky-500 text-white text-xs font-bold">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+      <span>Telegram</span>
+    </a>
+  </div>
+
+  <!-- MULTI-LANGUAGE TRANSLATION DICTIONARY & CLIENT-SIDE SCRIPT -->
+  <script>
+    const translations = {
+      hy: {
+        top_bar_status: "Ընդունում ենք պատվերներ Երևանում և մարզերում",
+        working_hours: "Ամեն օր՝ 09:00 - 21:00",
+        nav_services: "Ծառայություններ",
+        nav_process: "Ինչպես ենք աշխատում",
+        nav_why_us: "Ինչու մենք",
+        nav_about: "Մեր մասին",
+        nav_contact: "Կապ",
+        cta_call: "Զանգահարել",
+        hero_badge: "Պաշտոնական մասնագիտացված ծառայություն",
+        hero_title_1: "Մասնագիտական մաքրում և քիմմաքրում",
+        hero_title_2: "(գրասենյակներ, տներ, առևտրային տարածքներ)",
+        hero_description: "Shine Cleaning-ը տրամադրում է բարձրակարգ մաքրման ծառայություններ Երևանում և մարզերում: Ժամանակակից գերմանական Kärcher տեխնիկա, հակաալերգիկ էկո-նյութեր, փորձառու թիմ և 100% որակի երաշխիք:",
+        hero_cta_wa: "Պատվիրել WhatsApp-ով",
+        hero_cta_call: "Զանգահարել հիմա",
+        hero_cta_services: "Ծառայություններ",
+        metric_cleans: "Մաքրված տարածքներ",
+        metric_guarantee: "Որակի երաշխիք",
+        metric_arrival: "Արագ արձագանքում",
+        hero_img_caption: "Բազմոցների քիմմաքրում, հատակի փայլեցում և ապակիների լվացում",
+        flyer_badge_sub: "Հարցրեք մեզ ուղիղ Telegram-ում",
+        trust_title_1: "100% Ապահով & Երաշխավորված",
+        trust_desc_1: "Գույքի անվտանգության լիարժեք երաշխիք",
+        trust_title_2: "Էկո & Հակաալերգիկ Նյութեր",
+        trust_desc_2: "Անվտանգ երեխաների և կենդանիների համար",
+        trust_title_3: "Գերմանական Տեխնիկա",
+        trust_desc_3: "Kärcher պրոֆեսիոնալ սարքավորումներ",
+        trust_title_4: "Արագ & Ճշտապահ",
+        trust_desc_4: "Աշխատում ենք 7 օր, առանց հանգստյան",
+        services_tag: "Մեր Ծառայությունները",
+        services_heading: "Մասնագիտական մաքրման ծառայություններ",
+        services_subheading: "Տրամադրում ենք բոլոր տեսակի մաքրման և քիմմաքրման աշխատանքներ՝ օգտագործելով ժամանակակից տեխնոլոգիաներ և հատուկ նյութեր:",
+        srv1_title: "Տների և բնակարանների գլխավոր մաքրում",
+        srv1_desc: "Սենյակների, խոհանոցի, սանհանգույցի մանրակրկիտ մաքրում, ախտահանում, փոշեհանում և բոլոր մակերեսների փայլեցում:",
+        srv1_f1: "Խոհանոցի և տեխնիկայի յուղազերծում",
+        srv1_f2: "Սանհանգույցների խորքային ախտահանում",
+        srv1_f3: "Հատակի մաքրում և պաշտպանիչ շերտ",
+        service_badge_custom: "Անհատական մոտեցում",
+        book_service: "Պատվիրել",
+        badge_popular: "Ամենապահանջված",
+        srv2_title: "Փափուկ կահույքի և բազմոցների քիմմաքրում",
+        srv2_desc: "Խորքային էքստրակտորային մաքրում անմիջապես ձեր տանը: Հեռացնում ենք հետքերը, կեղտը, տհաճ հոտերը և տիզերը:",
+        srv2_f1: "Բազմոցներ, բազկաթոռներ, ներքնակներ",
+        srv2_f2: "Համառ հետքերի և հոտերի չեզոքացում",
+        srv2_f3: "Արագ չորացում (3-5 ժամում)",
+        service_badge_express: "Տեղում մաքրում",
+        srv3_title: "Գրասենյակներ և առևտրային տարածքներ",
+        srv3_desc: "Պարբերական և գլխավոր մաքրում բիզնես կենտրոնների, բանկերի, խանութների, ռեստորանների և գրասենյակների համար:",
+        srv3_f1: "Աշխատանք ոչ աշխատանքային ժամերին",
+        srv3_f2: "Պայմանագրային և անկանխիկ վճարում",
+        srv3_f3: "Անհատական սպասարկման փաթեթներ",
+        service_badge_contract: "Պայմանագրային",
+        srv4_title: "Վերանորոգումից հետո խորքային մաքրում",
+        srv4_desc: "Շինարարական փոշու, ցեմենտի, ներկի և սոսնձի մնացորդների հեռացում արդյունաբերական փոշեկուլներով և լուծույթներով:",
+        srv4_f1: "Շինարարական մանր փոշու լրիվ վերացում",
+        srv4_f2: "Սալիկների և կարանների մաքրում",
+        srv4_f3: "Ամբողջական պատրաստում բնակվելու",
+        service_badge_deep: "Խորքային մաքրում",
+        srv5_title: "Պատուհանների և վիտրաժների լվացում",
+        srv5_desc: "Պատուհանների, պատշգամբների ապակիների, ցուցափեղկերի և ճակատների անթերի լվացում առանց շերտերի և հետքերի:",
+        srv5_f1: "Երկկողմանի մաքրում և շրջանակներ",
+        srv5_f2: "Գոլորշիով և հակաստատիկ միջոցներով",
+        srv5_f3: "Բարձրահարկ շենքերի վիտրաժներ",
+        service_badge_streakfree: "Անթերի փայլ",
+        srv6_title: "Գորգերի քիմմաքրում & Հատակների փայլեցում",
+        srv6_desc: "Խորքային քիմմաքրում պրոֆեսիոնալ ռոտորային մեքենայով, բնական փայլի վերականգնում և կեղտապաշտպան շերտի հաղորդում:",
+        srv6_f1: "Մարմարի, գրանիտի, սալիկի մշակում",
+        srv6_f2: "Գորգերի խորքային լվացում տեղում",
+        srv6_f3: "Տհաճ հոտերի և բակտերիաների վերացում",
+        service_badge_eco: "Էկո-մաքրում",
+        process_tag: "Հստակ Գործընթաց",
+        process_heading: "Ինչպես ենք մենք աշխատում",
+        process_subheading: "Հեշտ, արագ և առանց ավելորդ անհանգստության. 4 պարզ քայլ մաքուր և փայլուն տարածք ունենալու համար:",
+        step1_title: "Հայտ կամ Զանգ",
+        step1_desc: "Կապվեք մեզ հետ հեռախոսով, WhatsApp-ով կամ Telegram-ով և նշեք ձեր տարածքը:",
+        step2_title: "Անվճար Խորհրդատվություն",
+        step2_desc: "Ճշտում ենք աշխատանքի մանրամասները, ձեզ հարմար օրն ու ժամը:",
+        step3_title: "Պրոֆեսիոնալ Մաքրում",
+        step3_desc: "Մեր թիմը ժամանում է Kärcher սարքավորումներով և էկոլոգիապես անվտանգ նյութերով:",
+        step4_title: "Որակի Ընդունում",
+        step4_desc: "Դուք ստուգում եք կատարված աշխատանքը և միայն գոհ մնալուց հետո կատարում վճարումը:",
+        process_cta_title: "Ունե՞ք հարցեր կամ ցանկանո՞ւմ եք պատվիրել",
+        process_cta_desc: "Մեր մասնագետները պատրաստ են օգնել ձեզ ամեն օր 09:00-ից 21:00-ն:",
+        why_tag: "Ինչու Shine Cleaning",
+        why_heading: "Ձեր տարածքի մաքրությունը վստահեք պրոֆեսիոնալներին",
+        why_desc: "Մենք հասկանում ենք, թե որքան կարևոր է մաքրությունը, հիգիենան և առողջ մթնոլորտը ձեր տանը կամ աշխատավայրում: Յուրաքանչյուր պատվեր իրականացվում է հատուկ պատասխանատվությամբ:",
+        why1_title: "Որակյալ և ստուգված անձնակազմ",
+        why1_desc: "Մեր բոլոր աշխատակիցներն ունեն մասնագիտական վերապատրաստում և կոկիկ արտահագուստ:",
+        why2_title: "Անվնաս քիմիական նյութեր",
+        why2_desc: "Օգտագործում ենք եվրոպական հավաստագրված միջոցներ, որոնք անվտանգ են երեխաների և ընտանի կենդանիների համար:",
+        why3_title: "Արդյունքի երաշխիք կամ անվճար վերամաքրում",
+        why3_desc: "Եթե որևէ դետալից դժգոհ մնաք, մեր թիմը տեղում անվճար կշտկի բոլոր թերությունները:",
+        flyer_card_subtitle: "Պաշտոնական տվյալներ",
+        about_team_title: "Մեր Պրոֆեսիոնալ Թիմը",
+        about_team_desc: "Համալրված նորագույն սարքավորումներով, էկոլոգիապես մաքուր նյութերով և բազմամյա փորձով:",
+        reviews_tag: "Հաճախորդների Կարծիքները",
+        reviews_heading: "Ինչ են ասում մեր հաճախորդները",
+        reviews_subheading: "Բարձր գնահատական Երևանի հարյուրավոր ընտանիքների և ընկերությունների կողմից:",
+        rev1_text: "«Պատվիրել էի բազմոցի քիմմաքրում և տան գլխավոր մաքրում: Բազմոցի վրայի հին սուրճի հետքերը ամբողջությամբ անհետացան: Հրաշալի սարքավորումներ ունեն: Շատ շնորհակալ եմ Shine թիմին»:",
+        rev2_text: "«Գրասենյակի մաքրում ենք պատվիրում արդեն 6 ամիս: Ամեն ինչ կատարվում է ճշտապահ, ոչ աշխատանքային ժամերին, առանց մեր թիմին խանգարելու: Իսկական պրոֆեսիոնալներ»:",
+        rev3_text: "«Վերանորոգումից հետո բնակարանը մաքրելու համար դիմեցինք Shine Cleaning-ին: Շինարարական փոշուց հետք անգամ չմնաց: Պատուհաններն ու սալիկները փայլում են: Խորհուրդ եմ տալիս բոլորին»:",
+        contact_tag: "Հետադարձ Կապ",
+        contact_heading: "Պատվիրեք մաքրում կամ ստացեք խորհրդատվություն",
+        contact_subheading: "Մենք արձագանքում ենք անմիջապես: Կարող եք լրացնել հայտը, կամ միանգամից կապ հաստատել հեռախոսով, WhatsApp-ով կամ Telegram-ով:",
+        contact_phone_label: "Անմիջական զանգ",
+        address_val: "Երևան, Հայաստան (Սպասարկում ենք Երևանի բոլոր համայնքներում և հարակից մարզերում)",
+        hours_val: "Աշխատանքային ժամեր՝ Ամեն օր, 09:00 - 21:00",
+        form_heading: "Արագ հայտի գրանցում",
+        form_subheading: "Լրացրեք տվյալները, և մեր մասնագետը կապ կհաստատի 15 րոպեի ընթացքում:",
+        form_name: "Ձեր Անունը *",
+        form_phone: "Հեռախոսահամար *",
+        form_service: "Ծառայության Տեսակը *",
+        form_date: "Նախընտրելի Օր / Ժամ",
+        form_address: "Հասցե / Համայնք",
+        form_notes: "Լրացուցիչ մանրամասներ / Նշումներ",
+        opt_home: "Տան / Բնակարանի մաքրում",
+        opt_sofa: "Փափուկ կահույքի / բազմոցի քիմմաքրում",
+        opt_office: "Գրասենյակի / Կոմերցիոն մաքրում",
+        opt_renov: "Վերանորոգումից հետո մաքրում",
+        opt_windows: "Պատուհանների լվացում",
+        opt_carpet: "Գորգերի քիմմաքրում",
+        btn_submit_wa: "Ուղարկել WhatsApp-ով",
+        btn_submit_tg: "Ուղարկել Telegram-ով",
+        btn_call_direct: "Զանգ",
+        form_success_title: "Շնորհակալություն: Ձեր հայտն ընդունված է:",
+        form_success_desc: "Ձեր հայտը պատրաստ է և ուղարկվում է Telegram (+374 77 442554) հաշվին: Մենք կպատասխանենք րոպեների ընթացքում:",
+        faq_tag: "Հաճախ տրվող հարցեր",
+        faq_heading: "Ամեն ինչ մեր ծառայությունների մասին",
+        faq1_q: "Պետք է արդյո՞ք տրամադրել մաքրող նյութեր կամ գործիքներ:",
+        faq1_a: "Ոչ, Shine Cleaning-ի թիմը գալիս է իր հետ բերելով բոլոր անհրաժեշտ պրոֆեսիոնալ գերմանական սարքավորումները (Kärcher) և մասնագիտական հավաստագրված մաքրող նյութերը: Ձեզանից պահանջվում է միայն ապահովել մուտք դեպի ջուր և էլեկտրականություն:",
+        faq2_q: "Որքա՞ն ժամանակ է պահանջվում բազմոցի քիմմաքրումից հետո լրիվ չորանալու համար:",
+        faq2_a: "Շնորհիվ հզոր էքստրակտորային սարքավորման, խոնավության 90%-ը միանգամից հետ է քաշվում: Սենյակային ջերմաստիճանում կահույքը լիովին չորանում է ընդամենը 3-5 ժամում:",
+        faq3_q: "Սպասարկո՞ւմ եք արդյոք Երևանից դուրս՝ մարզերում:",
+        faq3_a: "Այո, մենք սպասարկում ենք ինչպես Երևանի բոլոր համայնքներում (անվճար ժամանում), այնպես էլ Կոտայքի, Արարատի, Արմավիրի և այլ մարզերի առանձնատներում ու կոմերցիոն օբյեկտներում:",
+        faq4_q: "Ինչպե՞ս է կատարվում վճարումը:",
+        faq4_a: "Վճարումը կատարվում է աշխատանքն ավարտելուց և ձեր կողմից որակն ընդունելուց հետո: Ընդունում ենք կանխիկ, քարտային փոխանցումներ (Idram, Telcell, Visa/Mastercard) և բանկային անկանխիկ փոխանցումներ ընկերությունների համար:",
+        footer_bio: "Մասնագիտական մաքրում և քիմմաքրում տների, գրասենյակների և առևտրային տարածքների համար Երևանում:",
+        footer_col_services: "Ծառայություններ",
+        footer_col_socials: "Մեսենջերներ",
+        footer_col_contacts: "Կոնտակտներ",
+        all_rights_reserved: "Բոլոր իրավունքները պաշտպանված են:",
+        floating_wa_tooltip: "Գրեք մեզ WhatsApp-ով",
+        mob_call: "Զանգահարել",
+      },
+
+      ru: {
+        top_bar_status: "Принимаем заказы в Ереване и регионах",
+        working_hours: "Ежедневно: 09:00 - 21:00",
+        nav_services: "Услуги",
+        nav_process: "Как мы работаем",
+        nav_why_us: "Преимущества",
+        nav_about: "О нас",
+        nav_contact: "Контакты",
+        cta_call: "Позвонить",
+        hero_badge: "Официальный сертифицированный сервис",
+        hero_title_1: "Профессиональный клининг и химчистка",
+        hero_title_2: "(Офисы, Дома, Коммерческие помещения)",
+        hero_description: "Shine Cleaning предоставляет премиум клининговые услуги в Ереване и по всей Армении. Немецкое оборудование Kärcher, гипоаллергенная химия, опытные мастера и 100% гарантия качества.",
+        hero_cta_wa: "Заказать в WhatsApp",
+        hero_cta_call: "Позвонить сейчас",
+        hero_cta_services: "Услуги",
+        metric_cleans: "Убранных объектов",
+        metric_guarantee: "Гарантия качества",
+        metric_arrival: "Быстрый выезд",
+        hero_img_caption: "Химчистка диванов, полировка полов и мойка окон",
+        flyer_badge_sub: "Напишите напрямую в Telegram",
+        trust_title_1: "100% Надежность и гарантия",
+        trust_desc_1: "Полная материальная ответственность за имущество",
+        trust_title_2: "Эко и гипоаллергенные средства",
+        trust_desc_2: "Безопасно для детей и домашних животных",
+        trust_title_3: "Немецкая техника",
+        trust_desc_3: "Профессиональное оборудование Kärcher",
+        trust_title_4: "Быстро и пунктуально",
+        trust_desc_4: "Работаем без выходных, 7 дней в неделю",
+        services_tag: "Наши Услуги",
+        services_heading: "Профессиональные клининговые услуги",
+        services_subheading: "Выполняем полный спектр клининга и химчистки с использованием современных технологий и специализированных средств:",
+        srv1_title: "Генеральная уборка квартир и домов",
+        srv1_desc: "Глубокая очистка комнат, кухни, санузлов, дезинфекция, удаление пыли и полировка всех поверхностей.",
+        srv1_f1: "Обезжиривание кухонных зон и техники",
+        srv1_f2: "Глубокая дезинфекция санузлов",
+        srv1_f3: "Мытье пола с защитным покрытием",
+        service_badge_custom: "Индивидуальный расчет",
+        book_service: "Заказать",
+        badge_popular: "Хит продаж",
+        srv2_title: "Химчистка мягкой мебели и диванов",
+        srv2_desc: "Глубинная экстракторная чистка у вас дома. Удаляем застарелые пятна, грязь, неприятные запахи и пылевых клещей.",
+        srv2_f1: "Диваны, кресла, матрасы, стулья",
+        srv2_f2: "Выведение сложных пятен и запахов",
+        srv2_f3: "Быстрое высыхание (3-5 часов)",
+        service_badge_express: "Чистка на месте",
+        srv3_title: "Офисы и коммерческие помещения",
+        srv3_desc: "Регулярная и генеральная уборка для бизнес-центров, банков, магазинов, ресторанов и опен-спейсов.",
+        srv3_f1: "Работа во внерабочее время и ночью",
+        srv3_f2: "Официальный договор и безналичный расчет",
+        srv3_f3: "Индивидуальные графики обслуживания",
+        service_badge_contract: "По договору",
+        srv4_title: "Глубокая уборка после ремонта",
+        srv4_desc: "Удаление строительной пыли, следов цемента, краски, клея и затирки промышленными пылесосами и растворами.",
+        srv4_f1: "Полное обеспыливание стен и потолков",
+        srv4_f2: "Очистка кафеля и межплиточных швов",
+        srv4_f3: "Полная готовность объекта к заселению",
+        service_badge_deep: "Глубокая очистка",
+        srv5_title: "Мойка окон, балконов и витрин",
+        srv5_desc: "Безупречная очистка стекол, рам, балконных блоков и витрин магазинов без разводов и подтеков.",
+        srv5_f1: "Двусторонняя мойка с рамами и откосами",
+        srv5_f2: "Пароочистители и антистатик-эффект",
+        srv5_f3: "Панорамные окна и витражи",
+        service_badge_streakfree: "Без разводов",
+        srv6_title: "Химчистка ковров & Роторная чистка пола",
+        srv6_desc: "Глубинная роторная стирка ковров и машинная чистка твердых полов, восстановление блеска и защита.",
+        srv6_f1: "Полировка мрамора, гранита, плитки",
+        srv6_f2: "Химчистка ковров на дому с выездом",
+        srv6_f3: "Устранение запахов сырости и бактерий",
+        service_badge_eco: "Эко-клининг",
+        process_tag: "Прозрачный Процесс",
+        process_heading: "Как мы работаем",
+        process_subheading: "Просто, оперативно и без лишних хлопот: 4 простых шага к идеальной чистоте:",
+        step1_title: "Заявка или звонок",
+        step1_desc: "Свяжитесь с нами по телефону, через WhatsApp или Telegram и укажите ваш объект.",
+        step2_title: "Бесплатная консультация",
+        step2_desc: "Уточняем объем работ, детали и согласовываем удобный для вас день и время.",
+        step3_title: "Профессиональный клининг",
+        step3_desc: "Наша бригада приезжает с оборудованием Kärcher и экологически безопасной химией.",
+        step4_title: "Приемка работы",
+        step4_desc: "Вы проверяете результат и производите оплату только после полной удовлетворенности качеством.",
+        process_cta_title: "Есть вопросы или хотите сделать заказ?",
+        process_cta_desc: "Наши специалисты на связи каждый день с 09:00 до 21:00:",
+        why_tag: "Почему Shine Cleaning",
+        why_heading: "Доверьте чистоту вашего пространства профессионалам",
+        why_desc: "Мы понимаем ценность чистоты, комфорта и здоровья. Каждый заказ выполняется с максимальной тщательностью и немецкой аккуратностью.",
+        why1_title: "Квалифицированный персонал",
+        why1_desc: "Все клинеры прошли обучение работе с деликатными материалами и профессиональной химией.",
+        why2_title: "Безопасная эко-химия",
+        why2_desc: "Европейские составы без резкого запаха хлора, безопасные для детей, аллергиков и питомцев.",
+        why3_title: "Гарантия чистоты или переделаем бесплатно",
+        why3_desc: "Если вы заметите недочеты, мастер оперативно исправит их прямо на месте без доплат.",
+        flyer_card_subtitle: "Официальные данные",
+        about_team_title: "Наша Команда Мастеров",
+        about_team_desc: "Оснащены современной техникой, безопасными составами и многолетним опытом.",
+        reviews_tag: "Отзывы клиентов",
+        reviews_heading: "Что говорят наши клиенты",
+        reviews_subheading: "Высокие оценки от сотен семей и компаний по всему Еревану.",
+        rev1_text: "«Заказывала химчистку дивана и генеральную уборку. Застарелые пятна от кофе полностью сошли! Техника великолепная, ребята вежливые. Огромное спасибо Shine!»",
+        rev2_text: "«Пользуемся услугами клининга офиса уже более полугода. Приезжают вовремя, моют идеально, не мешают рабочему процессу. Настоящие профессионалы».",
+        rev3_text: "«После ремонта квартира была вся в белой пыли. Shine Cleaning отмыли все до скрипа за один день. Окна сверкают! Рекомендую всем в Ереване».",
+        contact_tag: "Контакты",
+        contact_heading: "Закажите клининг или получите консультацию",
+        contact_subheading: "Мы на связи каждый день! Заполните форму или сразу свяжитесь по телефону, в WhatsApp или Telegram:",
+        contact_phone_label: "Прямой звонок",
+        address_val: "Ереван, Армения (Работаем во всех районах Еревана и пригородах)",
+        hours_val: "Режим работы: Ежедневно, 09:00 - 21:00",
+        form_heading: "Быстрая заявка на клининг",
+        form_subheading: "Заполните форму, и менеджер свяжется с вами в течение 15 минут:",
+        form_name: "Ваше Имя *",
+        form_phone: "Номер телефона *",
+        form_service: "Выберите услугу *",
+        form_date: "Желаемая дата / время",
+        form_address: "Адрес / Район",
+        form_notes: "Пожелания и детали заказа",
+        opt_home: "Уборка дома / квартиры",
+        opt_sofa: "Химчистка мебели / дивана",
+        opt_office: "Клининг офиса / бизнеса",
+        opt_renov: "Уборка после ремонта",
+        opt_windows: "Мойка окон",
+        opt_carpet: "Химчистка ковров",
+        btn_submit_wa: "Отправить в WhatsApp",
+        btn_submit_tg: "Отправить в Telegram",
+        btn_call_direct: "Звонок",
+        form_success_title: "Спасибо! Ваша заявка принята.",
+        form_success_desc: "Ваша заявка подготовлена и отправляется в наш Telegram (+374 77 442554). Мы ответим вам в течение нескольких минут.",
+        faq_tag: "Вопросы и ответы",
+        faq_heading: "Все об услугах клининга",
+        faq1_q: "Нужно ли предоставлять свои моющие средства или тряпки?",
+        faq1_a: "Нет, команда Shine Cleaning привозит с собой все профессиональное немецкое оборудование (Kärcher) и сертифицированную химию. От вас нужен только доступ к электричеству и воде.",
+        faq2_q: "Сколько сохнет диван после химчистки?",
+        faq2_a: "Благодаря мощным экстракторам вытягивается до 90% влаги. При обычной температуре мебель полностью высыхает за 3-5 часов.",
+        faq3_q: "Выезжаете ли вы за пределы Еревана?",
+        faq3_a: "Да, мы обслуживаем как весь Ереван (бесплатный выезд), так и частные дома и коммерческие объекты в Котайке, Арарате, Армавире и других регионах.",
+        faq4_q: "Как происходит оплата?",
+        faq4_a: "Оплата происходит строго после завершения всех работ и проверки вами качества. Принимаем наличные, перевод (Idram, Telcell, карты) и безналичный расчет для юрлиц.",
+        footer_bio: "Профессиональный клининг и химчистка квартир, домов, офисов и коммерческих помещений в Ереване.",
+        footer_col_services: "Услуги",
+        footer_col_socials: "Мессенджеры",
+        footer_col_contacts: "Контакты",
+        all_rights_reserved: "Все права защищены.",
+        floating_wa_tooltip: "Напишите в WhatsApp",
+        mob_call: "Позвонить",
+      },
+
+      en: {
+        top_bar_status: "Taking cleaning orders in Yerevan & regions",
+        working_hours: "Every day: 09:00 - 21:00",
+        nav_services: "Services",
+        nav_process: "How We Work",
+        nav_why_us: "Why Choose Us",
+        nav_about: "About",
+        nav_contact: "Contact",
+        cta_call: "Call Now",
+        hero_badge: "Official Certified Cleaning Service",
+        hero_title_1: "Professional Cleaning & Dry Cleaning",
+        hero_title_2: "(Offices, Homes, Commercial Spaces)",
+        hero_description: "Shine Cleaning delivers premium residential and commercial cleaning across Yerevan. Powered by German Kärcher equipment, hypoallergenic eco-detergents, seasoned staff, and a 100% satisfaction guarantee.",
+        hero_cta_wa: "Order via WhatsApp",
+        hero_cta_call: "Call Now",
+        hero_cta_services: "Services",
+        metric_cleans: "Cleaned Spaces",
+        metric_guarantee: "Quality Guarantee",
+        metric_arrival: "Fast Response",
+        hero_img_caption: "Sofa dry cleaning, floor polishing & panoramic window washing",
+        flyer_badge_sub: "Direct message on Telegram",
+        trust_title_1: "100% Insured & Guaranteed",
+        trust_desc_1: "Full property safety guarantee",
+        trust_title_2: "Eco & Hypoallergenic Products",
+        trust_desc_2: "Safe for kids and pets",
+        trust_title_3: "German Equipment",
+        trust_desc_3: "Professional Kärcher technology",
+        trust_title_4: "Fast & Punctual",
+        trust_desc_4: "Working 7 days a week, no days off",
+        services_tag: "Our Services",
+        services_heading: "Professional Cleaning Solutions",
+        services_subheading: "Comprehensive residential and commercial cleaning utilizing advanced machinery and specialized detergents:",
+        srv1_title: "Home & Apartment Deep Cleaning",
+        srv1_desc: "Complete room sanitization, deep kitchen degreasing, bathroom descaling, dust removal, and surface polishing.",
+        srv1_f1: "Kitchen degreasing & appliance detailing",
+        srv1_f2: "Deep bathroom disinfection",
+        srv1_f3: "Hard floor scrubbing with protective coating",
+        service_badge_custom: "Tailored Approach",
+        book_service: "Book Now",
+        badge_popular: "Most Popular",
+        srv2_title: "Sofa & Upholstery Deep Dry Cleaning",
+        srv2_desc: "Extraction cleaning at your home. Removes deep-seated stains, dust mites, allergens, and odors.",
+        srv2_f1: "Sofas, armchairs, mattresses & dining chairs",
+        srv2_f2: "Stubborn stain and odor neutralization",
+        srv2_f3: "Rapid drying in 3 to 5 hours",
+        service_badge_express: "On-Site Cleaning",
+        srv3_title: "Office & Commercial Spaces",
+        srv3_desc: "Routine and deep cleaning for business hubs, banks, retail stores, restaurants, and corporate offices.",
+        srv3_f1: "After-hours and weekend availability",
+        srv3_f2: "Contract billing & cashless bank invoices",
+        srv3_f3: "Tailored recurring service packages",
+        service_badge_contract: "Commercial Contracts",
+        srv4_title: "Post-Construction & Renovation Cleaning",
+        srv4_desc: "Heavy-duty removal of construction dust, grout, paint spots, and plaster using industrial vacuum extractors.",
+        srv4_f1: "Complete dust elimination from walls & ceilings",
+        srv4_f2: "Tile & grout residue removal",
+        srv4_f3: "Turnkey readiness for immediate move-in",
+        service_badge_deep: "Heavy Deep Clean",
+        srv5_title: "Window & Facade Glass Washing",
+        srv5_desc: "Streak-free cleaning for apartment windows, balcony glazing, shop vitrines, and building glass facades.",
+        srv5_f1: "Double-sided glass & frame detailing",
+        srv5_f2: "Steam and anti-static dust-repellent finish",
+        srv5_f3: "High-rise and panoramic windows",
+        service_badge_streakfree: "Streak-Free Finish",
+        srv6_title: "Carpet Cleaning & Machine Floor Scrubbing",
+        srv6_desc: "Deep rotary carpet extraction, natural stone restoration, tile and hard surface scrubbing and polishing.",
+        srv6_f1: "Marble, granite & ceramic tile polishing",
+        srv6_f2: "On-site deep carpet shampooing",
+        srv6_f3: "Antibacterial treatment & deodorization",
+        service_badge_eco: "Eco-Friendly",
+        process_tag: "Clear Process",
+        process_heading: "How We Work",
+        process_subheading: "Simple, efficient, and hassle-free: 4 simple steps to a fresh, spotless environment:",
+        step1_title: "Inquiry or Call",
+        step1_desc: "Reach out via Phone, WhatsApp, or Telegram and describe your space.",
+        step2_title: "Free Consultation",
+        step2_desc: "We clarify the scope, schedule a convenient day and time, and customize the plan.",
+        step3_title: "Professional Cleaning",
+        step3_desc: "Our trained crew arrives with Kärcher equipment and certified eco-detergents.",
+        step4_title: "Quality Inspection",
+        step4_desc: "You inspect the completed work and only settle the payment once 100% satisfied.",
+        process_cta_title: "Have questions or ready to book?",
+        process_cta_desc: "Our friendly team is ready to assist daily from 09:00 to 21:00:",
+        why_tag: "Why Shine Cleaning",
+        why_heading: "Entrust Your Space's Cleanliness to Experts",
+        why_desc: "We prioritize hygiene, health, and pristine order. Every cleaning job is completed with German precision, respect for your property, and utmost care.",
+        why1_title: "Vetted & Certified Staff",
+        why1_desc: "All technicians are thoroughly trained in handling sensitive materials and professional chemistry.",
+        why2_title: "Certified Eco Detergents",
+        why2_desc: "Non-toxic, allergen-free European cleaning products safe for kids, pets, and asthma sufferers.",
+        why3_title: "Quality Guarantee or Free Redo",
+        why3_desc: "If anything doesn't meet your satisfaction, we fix it on the spot free of charge.",
+        flyer_card_subtitle: "Official Credentials",
+        about_team_title: "Our Professional Crew",
+        about_team_desc: "Equipped with advanced machinery, certified eco-products, and proven expertise.",
+        reviews_tag: "Client Reviews",
+        reviews_heading: "What Our Customers Say",
+        reviews_subheading: "Highly rated by hundreds of households and corporate offices in Yerevan.",
+        rev1_text: "\"I ordered sofa dry cleaning and a full apartment clean. Years-old coffee stains completely vanished! Outstanding machinery and courteous staff. Thank you Shine!\"",
+        rev2_text: "\"We've partnered with Shine Cleaning for office maintenance for over 6 months. Always punctual, efficient after-hours work without disturbing the team. True pros.\"",
+        rev3_text: "\"After our apartment renovation, the place was covered in fine drywall dust. Shine cleaned everything spotless in one day. Windows shine like crystal! Highly recommended.\"",
+        contact_tag: "Get in Touch",
+        contact_heading: "Book a Cleaning or Get a Free Consultation",
+        contact_subheading: "We reply immediately! Fill in the quick form or contact us directly via Phone, WhatsApp, or Telegram:",
+        contact_phone_label: "Direct Phone Call",
+        address_val: "Yerevan, Armenia (Serving all districts of Yerevan and surrounding regions)",
+        hours_val: "Working Hours: Daily, 09:00 - 21:00",
+        form_heading: "Quick Booking Request",
+        form_subheading: "Submit your details and our coordinator will contact you within 15 minutes:",
+        form_name: "Your Name *",
+        form_phone: "Phone Number *",
+        form_service: "Select Service *",
+        form_date: "Preferred Date / Time",
+        form_address: "Address / District",
+        form_notes: "Additional notes or requirements",
+        opt_home: "Home & Apartment Cleaning",
+        opt_sofa: "Sofa & Upholstery Cleaning",
+        opt_office: "Office & Business Cleaning",
+        opt_renov: "Post-Renovation Cleaning",
+        opt_windows: "Window & Glass Washing",
+        opt_carpet: "Carpet Deep Cleaning",
+        btn_submit_wa: "Send via WhatsApp",
+        btn_submit_tg: "Send via Telegram",
+        btn_call_direct: "Call",
+        form_success_title: "Thank you! Your request has been received.",
+        form_success_desc: "Your booking is ready and sending to Telegram (+374 77 442554). We will reply promptly.",
+        faq_tag: "FAQ",
+        faq_heading: "Frequently Asked Questions",
+        faq1_q: "Do I need to supply any cleaning tools or detergents?",
+        faq1_a: "No! Shine Cleaning provides all professional Kärcher industrial vacuums, steam extractors, microfiber cloths, and certified chemicals. All we need is access to water and electricity.",
+        faq2_q: "How long does a sofa take to dry after extraction cleaning?",
+        faq2_a: "Because our extractor removes over 90% of moisture during the wash, furniture dries naturally at room temperature in just 3 to 5 hours.",
+        faq3_q: "Do you service areas outside Yerevan?",
+        faq3_a: "Yes! While travel within Yerevan is completely free, we also travel to private villas, houses, and commercial premises across Kotayk, Ararat, Armavir, and other regions.",
+        faq4_q: "How can I pay for the service?",
+        faq4_a: "Payment is made only after the work is finished and you inspect the results. We accept cash, mobile transfers (Idram, Telcell, Visa/Mastercard), and official bank wire transfers for businesses.",
+        footer_bio: "Professional residential and commercial cleaning and upholstery dry cleaning services in Yerevan, Armenia.",
+        footer_col_services: "Services",
+        footer_col_socials: "Messengers",
+        footer_col_contacts: "Contacts",
+        all_rights_reserved: "All rights reserved.",
+        floating_wa_tooltip: "Chat with us on WhatsApp",
+        mob_call: "Call Now",
+      }
+    };
+
+    let currentLang = 'hy';
+
+    function setLanguage(lang) {
+      if (!translations[lang]) return;
+      currentLang = lang;
+      localStorage.setItem('shine_lang', lang);
+
+      // Update HTML lang attribute
+      document.documentElement.lang = lang;
+
+      // Update switcher active states
+      document.querySelectorAll('[data-lang-btn]').forEach(btn => {
+        const btnLang = btn.getAttribute('data-lang-btn');
+        if (btnLang === lang) {
+          btn.className = "px-2.5 py-1 rounded-md transition-all font-medium bg-teal-600 text-white shadow-sm";
+        } else {
+          btn.className = "px-2.5 py-1 rounded-md transition-all font-medium text-slate-600 hover:text-slate-900";
+        }
+      });
+
+      // Update all translated elements
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.textContent = translations[lang][key];
+        }
+      });
+
+      // Update dynamic links with prefilled language messages
+      updateWhatsAppLinks();
+    }
+
+    function updateWhatsAppLinks() {
+      let msg = "";
+      if (currentLang === 'ru') {
+        msg = "Здравствуйте! Хочу заказать клининговые услуги в Shine Cleaning (+374 77 442554).";
+      } else if (currentLang === 'en') {
+        msg = "Hello! I would like to book a cleaning service with Shine Cleaning (+374 77 442554).";
+      } else {
+        msg = "Բարև ձեզ, ցանկանում եմ պատվիրել Shine Cleaning ծառայություն (+374 77 442554):";
+      }
+      const waUrl = "https://wa.me/37477442554?text=" + encodeURIComponent(msg);
+      
+      const heroWaBtn = document.getElementById('hero-wa-btn');
+      if (heroWaBtn) heroWaBtn.href = waUrl;
+
+      const floatWa = document.getElementById('floating-wa-link');
+      if (floatWa) floatWa.href = waUrl;
+    }
+
+    function prefillBooking(serviceKey) {
+      const serviceMapHy = {
+        home: 'Տան / Բնակարանի մաքրում',
+        furniture: 'Փափուկ կահույքի / բազմոցի քիմմաքրում',
+        office: 'Գրասենյակի / Կոմերցիոն մաքրում',
+        renovation: 'Վերանորոգումից հետո մաքրում',
+        windows: 'Պատուհանների լվացում',
+        carpet: 'Գորգերի քիմմաքրում'
+      };
+
+      const serviceMapRu = {
+        home: 'Уборку дома / квартиры',
+        furniture: 'Химчистку мебели / дивана',
+        office: 'Клининг офиса / бизнеса',
+        renovation: 'Уборку после ремонта',
+        windows: 'Мойку окон',
+        carpet: 'Химчистку ковров'
+      };
+
+      const serviceMapEn = {
+        home: 'Home & Apartment Cleaning',
+        furniture: 'Sofa & Upholstery Cleaning',
+        office: 'Office & Business Cleaning',
+        renovation: 'Post-Renovation Cleaning',
+        windows: 'Window & Glass Washing',
+        carpet: 'Carpet Deep Cleaning'
+      };
+
+      let sText = serviceMapHy[serviceKey] || serviceKey;
+      let msg = `Բարև ձեզ, ցանկանում եմ պատվիրել Shine Cleaning-ի «${sText}» ծառայությունը (+374 77 442554):`;
+
+      if (currentLang === 'ru') {
+        sText = serviceMapRu[serviceKey] || serviceKey;
+        msg = `Здравствуйте! Хочу заказать в Shine Cleaning услугу «${sText}» (+374 77 442554).`;
+      } else if (currentLang === 'en') {
+        sText = serviceMapEn[serviceKey] || serviceKey;
+        msg = `Hello! I would like to book the "${sText}" service with Shine Cleaning (+374 77 442554).`;
+      }
+
+      const waUrl = "https://wa.me/37477442554?text=" + encodeURIComponent(msg);
+      openMessengerUrl(waUrl);
+    }
+
+    function validateBookingForm() {
+      const nameEl = document.getElementById('form-name');
+      const phoneEl = document.getElementById('form-phone');
+
+      if (!nameEl.value.trim()) {
+        nameEl.focus();
+        nameEl.classList.add('ring-2', 'ring-rose-500');
+        setTimeout(() => nameEl.classList.remove('ring-2', 'ring-rose-500'), 2500);
+        return false;
+      }
+
+      const phoneVal = phoneEl.value.trim();
+      if (!phoneVal || phoneVal === '+374' || phoneVal === '+374 ') {
+        phoneEl.focus();
+        phoneEl.classList.add('ring-2', 'ring-rose-500');
+        setTimeout(() => phoneEl.classList.remove('ring-2', 'ring-rose-500'), 2500);
+        return false;
+      }
+
+      return true;
+    }
+
+    function buildBookingMessage() {
+      const name = document.getElementById('form-name').value.trim() || 'Հաճախորդ';
+      const phone = document.getElementById('form-phone').value.trim();
+      const service = document.getElementById('form-service').value;
+      const datetime = document.getElementById('form-datetime').value.trim();
+      const address = document.getElementById('form-address').value.trim();
+      const notes = document.getElementById('form-notes').value.trim();
+
+      const serviceMapHy = {
+        home: 'Տան / Բնակարանի մաքրում',
+        furniture: 'Փափուկ կահույքի / բազմոցի քիմմաքրում',
+        office: 'Գրասենյակի / Կոմերցիոն մաքրում',
+        renovation: 'Վերանորոգումից հետո մաքրում',
+        windows: 'Պատուհանների լվացում',
+        carpet: 'Գորգերի քիմմաքրում'
+      };
+
+      const serviceMapRu = {
+        home: 'Уборка дома / квартиры',
+        furniture: 'Химчистка мебели / дивана',
+        office: 'Клининг офиса / бизнеса',
+        renovation: 'Уборка после ремонта',
+        windows: 'Мойка окон',
+        carpet: 'Химчистка ковров'
+      };
+
+      const serviceMapEn = {
+        home: 'Home & Apartment Cleaning',
+        furniture: 'Sofa & Upholstery Cleaning',
+        office: 'Office & Business Cleaning',
+        renovation: 'Post-Renovation Cleaning',
+        windows: 'Window & Glass Washing',
+        carpet: 'Carpet Deep Cleaning'
+      };
+
+      let sText = serviceMapHy[service] || service;
+      let msg = "";
+
+      if (currentLang === 'ru') {
+        sText = serviceMapRu[service] || service;
+        msg = `✨ Заявка на клининг (Shine Cleaning):\n👤 Имя: ${name}\n📞 Телефон: ${phone}\n🧼 Услуга: ${sText}\n📅 Желаемое время: ${datetime || 'Как можно скорее'}\n📍 Адрес: ${address || 'Ереван'}\n📝 Примечания: ${notes || 'Нет'}\n\n📍 Shine Cleaning Armenia (+374 77 442554)`;
+      } else if (currentLang === 'en') {
+        sText = serviceMapEn[service] || service;
+        msg = `✨ Cleaning Booking (Shine Cleaning):\n👤 Name: ${name}\n📞 Phone: ${phone}\n🧼 Service: ${sText}\n📅 Preferred Date/Time: ${datetime || 'ASAP'}\n📍 Address: ${address || 'Yerevan'}\n📝 Notes: ${notes || 'None'}\n\n📍 Shine Cleaning Armenia (+374 77 442554)`;
+      } else {
+        msg = `✨ Մաքրման հայտ (Shine Cleaning):\n👤 Անուն՝ ${name}\n📞 Հեռախոս՝ ${phone}\n🧼 Ծառայություն՝ ${sText}\n📅 Նախընտրելի օր/ժամ՝ ${datetime || 'Շուտափույթ'}\n📍 Հասցե՝ ${address || 'Երևան'}\n📝 Նշումներ՝ ${notes || 'Չկա'}\n\n📍 Shine Cleaning Armenia (+374 77 442554)`;
+      }
+
+      return { msg, name, phone, sText };
+    }
+
+    function openMessengerUrl(url) {
+      try {
+        const link = document.createElement('a');
+        link.href = url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        document.body.appendChild(link);
+        link.click();
+        setTimeout(() => {
+          if (link.parentNode) link.parentNode.removeChild(link);
+        }, 200);
+      } catch (err) {
+        window.location.href = url;
+      }
+    }
+
+    function showSuccessFeedback(appName, appUrl, msg) {
+      // Copy formatted text to clipboard
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(msg).catch(() => {});
+      }
+
+      const banner = document.getElementById('form-success-banner');
+      const titleEl = document.getElementById('form-success-title');
+      const descEl = document.getElementById('form-success-desc');
+      const linkEl = document.getElementById('form-success-open-link');
+      const linkTextEl = document.getElementById('form-success-link-text');
+
+      if (banner) {
+        if (titleEl) {
+          if (currentLang === 'ru') {
+            titleEl.textContent = `Данные готовы и отправляются в ${appName}!`;
+          } else if (currentLang === 'en') {
+            titleEl.textContent = `Details prepared and opening in ${appName}!`;
+          } else {
+            titleEl.textContent = `Տվյալները պատրաստ են և բացվում են ${appName}-ում:`;
+          }
+        }
+
+        if (descEl) {
+          if (currentLang === 'ru') {
+            descEl.textContent = `Заявка с вашими контактами и выбранной услугой импортирована в ${appName} (+374 77 442554). Если приложение не открылось автоматически, нажмите кнопку ниже:`;
+          } else if (currentLang === 'en') {
+            descEl.textContent = `Your booking request details have been imported into ${appName} (+374 77 442554). If the app did not open automatically, click below:`;
+          } else {
+            descEl.textContent = `Ձեր պատվերի մանրամասները ներմուծվել են ${appName} (+374 77 442554): Եթե հավելվածը ինքնուրույն չի բացվել, սեղմեք կոճակը ստորև:`;
+          }
+        }
+
+        if (linkEl) linkEl.href = appUrl;
+        if (linkTextEl) linkTextEl.textContent = `${appName} ↗`;
+
+        banner.classList.remove('hidden');
+        banner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    function sendFormViaWhatsApp() {
+      if (!validateBookingForm()) return;
+      const { msg } = buildBookingMessage();
+      const waUrl = "https://wa.me/37477442554?text=" + encodeURIComponent(msg);
+      showSuccessFeedback("WhatsApp", waUrl, msg);
+      openMessengerUrl(waUrl);
+    }
+
+    function sendFormViaTelegram() {
+      if (!validateBookingForm()) return;
+      const { msg } = buildBookingMessage();
+      const tgUrl = "https://t.me/share/url?url=&text=" + encodeURIComponent(msg);
+      showSuccessFeedback("Telegram", tgUrl, msg);
+      openMessengerUrl(tgUrl);
+    }
+
+    function handleFormSubmit(e) {
+      if (e) e.preventDefault();
+      sendFormViaWhatsApp();
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      if (menu) {
+        menu.classList.toggle('hidden');
+      }
+    }
+
+    // Init on DOM load
+    document.addEventListener('DOMContentLoaded', () => {
+      const yrEl = document.getElementById('copyright-year');
+      if (yrEl) yrEl.textContent = new Date().getFullYear();
+
+      const mBtn = document.getElementById('mobile-menu-btn');
+      if (mBtn) mBtn.addEventListener('click', toggleMobileMenu);
+
+      const savedLang = localStorage.getItem('shine_lang') || 'hy';
+      setLanguage(savedLang);
+    });
+  </script>
+
+</body>
+</html>
