@@ -398,30 +398,38 @@
             <span>Գլխավոր ուղղություն</span>
           </div>
           <div>
-            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors shadow-sm">
-              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center group-hover:bg-teal-600 group-hover:text-white transition-colors shadow-sm">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+              </div>
+              <span class="inline-flex items-center px-2.5 py-1 rounded-lg bg-teal-50 border border-teal-200 text-teal-800 text-xs font-extrabold" data-i18n="srv_renov_rate">
+                от 1 000 ֏/м²
+              </span>
             </div>
             <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv4_title">Վերանորոգումից հետո խորքային մաքրում</h3>
-            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv4_desc">
+            <p class="text-sm text-slate-600 mb-4 leading-relaxed" data-i18n="srv4_desc">
               Շինարարական փոշու, ցեմենտի, ներկի և սոսնձի մնացորդների հեռացում արդյունաբերական փոշեկուլներով և լուծույթներով:
             </p>
-            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-4">
               <li class="flex items-center gap-2">
                 <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span data-i18n="srv4_f1">Շինարարական մանր փոշու լրիվ վերացում</span>
+                <span data-i18n="srv4_f1">Շինարարական փոշու հեռացում և բոլոր սենյակների մաքրում</span>
               </li>
               <li class="flex items-center gap-2">
                 <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span data-i18n="srv4_f2">Սալիկների և կարանների մաքրում</span>
+                <span data-i18n="srv4_f2">Ստանդարտ պատուհանների լվացումը ներառված է</span>
               </li>
               <li class="flex items-center gap-2">
                 <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                 <span data-i18n="srv4_f3">Ամբողջական պատրաստում բնակվելու</span>
               </li>
             </ul>
+            <div class="p-2.5 rounded-lg bg-teal-50/70 border border-teal-200/60 text-[11px] text-teal-900 leading-snug mb-5" data-i18n="srv_renov_notice">
+              📌 Ճշգրիտ արժեքը հաշվարկվում է անհատական և համաձայնեցվում նախքան աշխատանքը՝ առանց անակնկալ հավելավճարների:
+            </div>
           </div>
           <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_deep">Խորքային մաքրում</span>
+            <span class="text-xs font-bold text-teal-800 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_deep">սկսած 1 000 ֏/մ²</span>
             <button onclick="prefillBooking('renovation')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
               <span data-i18n="book_service">Պատվիրել</span> &rarr;
             </button>
@@ -467,30 +475,38 @@
             Ամենապահանջված
           </div>
           <div>
-            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
-              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+              </div>
+              <span class="inline-flex items-center px-2.5 py-1 rounded-lg bg-teal-50 border border-teal-200 text-teal-800 text-xs font-extrabold" data-i18n="srv_sofa_rate">
+                от 800 ֏
+              </span>
             </div>
             <h3 class="text-xl font-bold text-slate-900 mb-2.5" data-i18n="srv2_title">Փափուկ կահույքի և բազմոցների քիմմաքրում</h3>
-            <p class="text-sm text-slate-600 mb-5 leading-relaxed" data-i18n="srv2_desc">
+            <p class="text-sm text-slate-600 mb-4 leading-relaxed" data-i18n="srv2_desc">
               Խորքային էքստրակտորային մաքրում անմիջապես ձեր տանը: Հեռացնում ենք հետքերը, կեղտը, տհաճ հոտերը և տիզերը:
             </p>
-            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-6">
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-4">
               <li class="flex items-center gap-2">
                 <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span data-i18n="srv2_f1">Բազմոցներ, բազկաթոռներ, ներքնակներ</span>
+                <span data-i18n="srv2_f1">Աթոռներ (800 ֏), բազկաթոռներ (3 500 ֏), բազմոցներ (6 000 ֏)</span>
               </li>
               <li class="flex items-center gap-2">
                 <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span data-i18n="srv2_f2">Համառ հետքերի և հոտերի չեզոքացում</span>
+                <span data-i18n="srv2_f2">KÄRCHER խորքային էքստրակտոր և էկո-նյութեր</span>
               </li>
               <li class="flex items-center gap-2">
                 <svg class="w-4 h-4 text-teal-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                 <span data-i18n="srv2_f3">Արագ չորացում (3-5 ժամում)</span>
               </li>
             </ul>
+            <div class="p-2.5 rounded-lg bg-amber-50/70 border border-amber-200/60 text-[11px] text-amber-900 leading-snug mb-5" data-i18n="srv_sofa_notice">
+              🚗 Առանձին պատվերի նվազագույն արժեքը՝ 10 000 ֏
+            </div>
           </div>
           <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-            <span class="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md" data-i18n="service_badge_express">Տեղում մաքրում</span>
+            <a href="#pricing-furniture" class="text-xs font-bold text-teal-800 bg-teal-50 px-2.5 py-1 rounded-md hover:bg-teal-100 transition-colors" data-i18n="service_badge_express">սկսած 800 ֏-ից</a>
             <button onclick="prefillBooking('furniture')" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
               <span data-i18n="book_service">Պատվիրել</span> &rarr;
             </button>
@@ -755,23 +771,253 @@
                 </div>
               </div>
 
-              <div class="p-4 rounded-2xl bg-teal-50/70 border border-teal-200 flex items-center justify-between">
+              <div class="p-4 rounded-2xl bg-teal-50/90 border-2 border-teal-500/40 flex items-center justify-between">
                 <div>
-                  <p class="text-xs sm:text-sm font-bold text-teal-900" data-i18n="area_rate3_title">Վերանորոգումից հետո մաքրում</p>
-                  <p class="text-[11px] text-teal-700" data-i18n="area_rate3_sub">Մեր գլխավոր մասնագիտացումը</p>
+                  <div class="flex items-center gap-1.5">
+                    <span class="text-xs">🏗️</span>
+                    <p class="text-xs sm:text-sm font-bold text-teal-950" data-i18n="area_rate3_title">Վերանորոգումից հետո մաքրում</p>
+                  </div>
+                  <p class="text-[11px] text-teal-700" data-i18n="area_rate3_sub">Ստանդարտ պատուհանները ներառված են</p>
                 </div>
                 <div class="text-right">
-                  <span class="text-xs font-bold text-teal-800 bg-teal-100 px-2.5 py-1 rounded-md" data-i18n="badge_custom_rate">Անհատական</span>
+                  <span class="text-lg sm:text-xl font-extrabold text-teal-700" data-i18n="area_rate3_val">от 1 000 ֏</span>
+                  <span class="text-xs text-slate-500 block">/ մ²</span>
                 </div>
               </div>
             </div>
+
+            <!-- Renovation guarantee note -->
+            <div class="p-3.5 rounded-xl bg-teal-50 border border-teal-200/70 text-[11px] text-teal-900 leading-relaxed mb-6 space-y-1">
+              <p class="font-bold flex items-center gap-1">
+                <span>✨</span>
+                <span data-i18n="renov_card_incl">Փոշու հեռացում, բոլոր սենյակներ և պատուհաններ</span>
+              </p>
+              <p class="text-slate-600" data-i18n="renov_card_note">
+                📌 Ճշգրիտ արժեքը հաշվարկվում է անհատական և համաձայնեցվում նախքան աշխատանքը՝ առանց անակնկալ հավելավճարների:
+              </p>
+            </div>
           </div>
 
-          <button onclick="prefillPricing('house')" class="w-full py-3 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-sm">
-            <span data-i18n="btn_book_house">Ճշտել Տան Արժեքը</span> &rarr;
+          <button onclick="prefillPricing('renovation')" class="w-full py-3 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-sm">
+            <span data-i18n="btn_book_house">Ճշտել Տան / Վերանորոգման Արժեքը</span> &rarr;
           </button>
         </div>
 
+      </div>
+
+      <!-- Dedicated Furniture & Sofa Dry Cleaning Pricing Block (Химчистка мягкой мебели) -->
+      <div id="pricing-furniture" class="bg-gradient-to-br from-slate-900 via-slate-800 to-teal-950 text-white rounded-3xl p-7 sm:p-10 shadow-2xl mb-14 border border-teal-500/30 relative overflow-hidden">
+        <div class="absolute -right-16 -bottom-16 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-16 -top-16 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <!-- Header -->
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-white/10 mb-8">
+            <div>
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-bold uppercase tracking-wider mb-2">
+                <span>🛋️ SHINE CLEANING</span>
+                <span>•</span>
+                <span data-i18n="furniture_header_tag">Պրոֆեսիոնալ Քիմմաքրում</span>
+              </div>
+              <h3 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2.5" data-i18n="furniture_pricing_title">
+                <span>🛋️</span>
+                <span>Химчистка мягкой мебели</span>
+              </h3>
+              <p class="text-slate-300 text-sm mt-1" data-i18n="furniture_pricing_sub">
+                Глубинная экстракторная чистка оборудованием KÄRCHER с выездом на дом
+              </p>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="px-3.5 py-1.5 rounded-xl bg-amber-400/20 border border-amber-400/40 text-amber-300 text-xs sm:text-sm font-bold shadow-sm" data-i18n="furniture_min_order_badge">
+                🚗 Мин. заказ отдельной услуги — 10 000 ֏
+              </span>
+            </div>
+          </div>
+
+          <!-- 2 Columns: Left 7 Item Price List, Right Inclusions & Rules -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- Left: 7 Furniture Price Items (7 Cols) -->
+            <div class="lg:col-span-7 space-y-2.5">
+              <div class="flex items-center justify-between mb-2">
+                <p class="text-xs uppercase tracking-wider text-teal-300 font-bold" data-i18n="furniture_pricelist_label">
+                  📋 Стоимость услуг:
+                </p>
+                <span class="text-[11px] text-slate-400 font-medium" data-i18n="furniture_pricelist_hint">
+                  Ֆիքսված սակագներ / Фиксированные тарифы
+                </span>
+              </div>
+              
+              <!-- 1. Стул (мягкое сиденье) -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🪑</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_1">Стул (мягкое сиденье)</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_1_sub">только сиденье</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">800–1 200 ֏</span>
+                </div>
+              </div>
+
+              <!-- 2. Стул (сиденье и спинка) -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🪑</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_2">Стул (сиденье и спинка)</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_2_sub">полная обивка</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">1 200–1 800 ֏</span>
+                </div>
+              </div>
+
+              <!-- 3. Кресло -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🪑</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_3">Кресло</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_3_sub">стандартное мягкое кресло</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">3 500–5 000 ֏</span>
+                </div>
+              </div>
+
+              <!-- 4. Двухместный диван -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🛋️</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_4">Двухместный диван</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_4_sub">компактный прямой диван (2 места)</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">6 000–8 000 ֏</span>
+                </div>
+              </div>
+
+              <!-- 5. Трёхместный диван -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🛋️</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_5">Трёхместный диван</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_5_sub">прямой диван (3 места)</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">8 000–10 000 ֏</span>
+                </div>
+              </div>
+
+              <!-- 6. Четырёхместный диван -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🛋️</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_6">Четырёхместный диван</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_6_sub">большой прямой диван (4 места)</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">10 000–12 000 ֏</span>
+                </div>
+              </div>
+
+              <!-- 7. Угловой диван -->
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-teal-500/10 hover:bg-teal-500/20 border border-teal-500/40 transition-colors">
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">🛋️</span>
+                  <div>
+                    <span class="text-sm font-semibold text-white" data-i18n="furn_item_7">Угловой диван</span>
+                    <span class="block text-[11px] text-slate-400" data-i18n="furn_item_7_sub">L-образный угловой диван</span>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-base sm:text-lg font-bold text-teal-300">12 000–15 000 ֏</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Right: What is Included + Important Notes + CTA (5 Cols) -->
+            <div class="lg:col-span-5 flex flex-col justify-between space-y-5">
+              
+              <!-- What is included -->
+              <div class="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-3">
+                <div class="flex items-center gap-2 text-teal-300 font-bold text-sm">
+                  <span>✨</span>
+                  <span data-i18n="furn_inc_title">Что входит в стоимость:</span>
+                </div>
+                <ul class="space-y-2.5 text-xs text-slate-200">
+                  <li class="flex items-start gap-2">
+                    <span class="text-teal-400 font-bold flex-shrink-0">✅</span>
+                    <span data-i18n="furn_inc_1">Удаление пыли и загрязнений.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="text-teal-400 font-bold flex-shrink-0">✅</span>
+                    <span data-i18n="furn_inc_2">Глубокая чистка мягкой обивки.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="text-teal-400 font-bold flex-shrink-0">✅</span>
+                    <span data-i18n="furn_inc_3">Обработка пятен профессиональными средствами.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="text-teal-400 font-bold flex-shrink-0">✅</span>
+                    <span data-i18n="furn_inc_4">Экстракторная чистка оборудованием KÄRCHER.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="text-teal-400 font-bold flex-shrink-0">✅</span>
+                    <span data-i18n="furn_inc_5">Удаление остатков чистящих средств.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Important Clarifications -->
+              <div class="p-5 rounded-2xl bg-amber-500/10 border border-amber-500/30 space-y-2.5">
+                <div class="flex items-center gap-2 text-amber-300 font-bold text-sm">
+                  <span>📌</span>
+                  <span data-i18n="furn_notice_title">Важное уточнение:</span>
+                </div>
+                <ul class="space-y-2 text-xs text-amber-100/90 leading-relaxed">
+                  <li class="flex items-start gap-1.5">
+                    <span class="text-amber-300">•</span>
+                    <span data-i18n="furn_notice_1">Стоимость зависит от размера мебели, материала обивки и степени загрязнения.</span>
+                  </li>
+                  <li class="flex items-start gap-1.5">
+                    <span class="text-amber-300">•</span>
+                    <span data-i18n="furn_notice_2">Точная стоимость согласовывается до начала работ — без неожиданных доплат.</span>
+                  </li>
+                  <li class="flex items-start gap-1.5">
+                    <span class="text-amber-300">•</span>
+                    <span data-i18n="furn_notice_3">Удаление сложных и застарелых пятен не гарантируется.</span>
+                  </li>
+                  <li class="flex items-start gap-1.5 text-amber-300 font-bold pt-1 border-t border-amber-500/20">
+                    <span class="flex-shrink-0">🚗</span>
+                    <span data-i18n="furn_notice_4">Минимальная стоимость отдельного заказа — 10 000 ֏.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Button CTA -->
+              <button onclick="prefillPricing('furniture')" class="w-full py-4 px-6 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold text-sm sm:text-base flex items-center justify-center gap-2 transition-all shadow-lg shadow-teal-500/25">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                <span data-i18n="furn_btn_book">Заказать химчистку мебели в Telegram</span> &rarr;
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
       </div>
 
       <!-- Explanatory Guidelines & Fair Policy Rules -->
@@ -1441,9 +1687,47 @@
         area_rate2_title: "Генеральная уборка",
         area_rate2_sub: "Լիարժեք խորքային մաքրում",
         area_rate3_title: "Վերանորոգումից հետո մաքրում",
-        area_rate3_sub: "Մեր գլխավոր մասնագիտացումը",
-        badge_custom_rate: "Անհատական",
-        btn_book_house: "Ճշտել Տան Արժեքը",
+        area_rate3_sub: "Ստանդարտ պատուհանները ներառված են",
+        area_rate3_val: "սկսած 1 000 ֏",
+        renov_card_incl: "Շինարարական փոշու մաքրում + պատուհաններ",
+        renov_card_note: "📌 Ճշգրիտ արժեքը հաշվարկվում է անհատական և համաձայնեցվում նախքան աշխատանքը՝ առանց անակնկալ հավելավճարների:",
+        srv_renov_rate: "սկսած 1 000 ֏/մ²",
+        srv_renov_notice: "📌 Ճշգրիտ արժեքը հաշվարկվում է անհատական և համաձայնեցվում նախքան աշխատանքը՝ առանց անակնկալ հավելավճարների:",
+        srv_sofa_rate: "սկսած 800 ֏-ից",
+        srv_sofa_notice: "🚗 Առանձին պատվերի նվազագույն արժեքը՝ 10 000 ֏",
+        furniture_header_tag: "Պրոֆեսիոնալ Քիմմաքրում",
+        furniture_pricing_title: "Химчистка мягкой мебели",
+        furniture_pricing_sub: "Խորքային էքստրակտորային մաքրում KÄRCHER սարքավորումով ձեր հասցեում",
+        furniture_min_order_badge: "🚗 Նվազագույն պատվեր՝ 10 000 ֏",
+        furniture_pricelist_label: "📋 Ծառայությունների արժեքը՝",
+        furniture_pricelist_hint: "Ֆիքսված սակագներ",
+        furn_item_1: "Աթոռ (փափուկ նստատեղ)",
+        furn_item_1_sub: "միայն նստատեղ",
+        furn_item_2: "Աթոռ (նստատեղ և թիկնակ)",
+        furn_item_2_sub: "ամբողջական երեսպատում",
+        furn_item_3: "Բազկաթոռ",
+        furn_item_3_sub: "ստանդարտ փափուկ բազկաթոռ",
+        furn_item_4: "Երկտեղանոց բազմոց",
+        furn_item_4_sub: "կոմպակտ ուղիղ բազմոց (2 տեղ)",
+        furn_item_5: "Եռատեղ բազմոց",
+        furn_item_5_sub: "ուղիղ բազմոց (3 տեղ)",
+        furn_item_6: "Քառատեղ բազմոց",
+        furn_item_6_sub: "մեծ ուղիղ բազմոց (4 տեղ)",
+        furn_item_7: "Անկյունային բազմոց",
+        furn_item_7_sub: "L-աձև անկյունային բազմոց",
+        furn_inc_title: "Ի՞նչ է մտնում արժեքի մեջ՝",
+        furn_inc_1: "Փոշու և մակերեսային կեղտի հեռացում:",
+        furn_inc_2: "Փափուկ գործվածքի խորքային մաքրում:",
+        furn_inc_3: "Հետքերի մշակում պրոֆեսիոնալ նյութերով:",
+        furn_inc_4: "Էքստրակտորային լվացում KÄRCHER սարքավորումով:",
+        furn_inc_5: "Մաքրող միջոցների մնացորդների չեզոքացում և հեռացում:",
+        furn_notice_title: "Կարևոր պարզաբանումներ՝",
+        furn_notice_1: "Արժեքը կախված է կահույքի չափից, գործվածքից և աղտոտվածությունից:",
+        furn_notice_2: "Ճշգրիտ արժեքը համաձայնեցվում է նախքան աշխատանքը սկսելը՝ առանց անակնկալ հավելավճարների:",
+        furn_notice_3: "Բարդ և հնացած հետքերի լիարժեք հեռացումը չի երաշխավորվում:",
+        furn_notice_4: "Առանձին պատվերի նվազագույն արժեքը՝ 10 000 ֏:",
+        furn_btn_book: "Պատվիրել կահույքի քիմմաքրում Telegram-ով",
+        btn_book_house: "Ճշտել Տան / Վերանորոգման Արժեքը",
         rules_rooms_title: "Ինչպե՞ս ենք հաշվարկում սենյակների քանակը",
         rules_rooms_desc: "Խոհանոցը, միջանցքը և մեկ սանհանգույցը արդեն իսկ ներառված են յուրաքանչյուր կարգի բազային արժեքի մեջ: Եթե խոհանոցը միացված է հյուրասենյակին (ստուդիա), այն հաշվարկվում է որպես մեկ բնակելի գոտի:",
         rules_adjust_title: "Ուշադրություն. Ե՞րբ կարող է գինը ճշգրտվել",
@@ -1628,10 +1912,48 @@
         area_rate1_sub: "310 ֏ за м²",
         area_rate2_title: "Генеральная уборка",
         area_rate2_sub: "1 000 ֏ за м²",
-        area_rate3_title: "Уборка после ремонта",
-        area_rate3_sub: "Наш главный профиль",
-        badge_custom_rate: "Индивидуально",
-        btn_book_house: "Рассчитать стоимость дома",
+        area_rate3_title: "Уборка после ремонта и строительства",
+        area_rate3_sub: "Мытьё стандартных окон включено",
+        area_rate3_val: "от 1 000 ֏",
+        renov_card_incl: "Удаление строительной пыли, уборка помещений и мытьё стандартных окон",
+        renov_card_note: "📌 Точная стоимость рассчитывается индивидуально и согласовывается до начала работ — без неожиданных доплат!",
+        srv_renov_rate: "от 1 000 ֏/м²",
+        srv_renov_notice: "📌 Точная стоимость рассчитывается индивидуально и согласовывается до начала работ — без неожиданных доплат!",
+        srv_sofa_rate: "от 800 ֏",
+        srv_sofa_notice: "🚗 Минимальная стоимость отдельного заказа — 10 000 ֏",
+        furniture_header_tag: "Профессиональный Клининг Мебели",
+        furniture_pricing_title: "Химчистка мягкой мебели",
+        furniture_pricing_sub: "Глубинная экстракторная чистка оборудованием KÄRCHER с выездом на дом",
+        furniture_min_order_badge: "🚗 Мин. заказ — 10 000 ֏",
+        furniture_pricelist_label: "📋 Стоимость услуг:",
+        furniture_pricelist_hint: "Фиксированные тарифы",
+        furn_item_1: "Стул (мягкое сиденье)",
+        furn_item_1_sub: "только мягкое сиденье",
+        furn_item_2: "Стул (сиденье и спинка)",
+        furn_item_2_sub: "мягкие сиденье и спинка",
+        furn_item_3: "Кресло",
+        furn_item_3_sub: "стандартное мягкое кресло",
+        furn_item_4: "Двухместный диван",
+        furn_item_4_sub: "компактный прямой диван (2 места)",
+        furn_item_5: "Трёхместный диван",
+        furn_item_5_sub: "прямой диван (3 места)",
+        furn_item_6: "Четырёхместный диван",
+        furn_item_6_sub: "большой прямой диван (4 места)",
+        furn_item_7: "Угловой диван",
+        furn_item_7_sub: "L-образный угловой диван",
+        furn_inc_title: "Что входит в стоимость:",
+        furn_inc_1: "Удаление пыли и загрязнений.",
+        furn_inc_2: "Глубокая чистка мягкой обивки.",
+        furn_inc_3: "Обработка пятен профессиональными средствами.",
+        furn_inc_4: "Экстракторная чистка оборудованием KÄRCHER.",
+        furn_inc_5: "Удаление остатков чистящих средств.",
+        furn_notice_title: "Важное уточнение:",
+        furn_notice_1: "Стоимость зависит от размера мебели, материала обивки и степени загрязнения.",
+        furn_notice_2: "Точная стоимость согласовывается до начала работ — без неожиданных доплат.",
+        furn_notice_3: "Удаление сложных и застарелых пятен не гарантируется.",
+        furn_notice_4: "Минимальная стоимость отдельного заказа — 10 000 ֏.",
+        furn_btn_book: "Заказать химчистку мебели в Telegram",
+        btn_book_house: "Рассчитать стоимость уборки / ремонта",
         rules_rooms_title: "Как мы считаем количество комнат в квартире, посмотрите здесь.",
         rules_rooms_desc: "Кухня, коридоры и санузел уже включены в базовую стоимость! Если кухня объединена с гостиной (студия / евро-планировка), она считается как одна жилая зона. Лоджии и гардеробные добавляются по запросу.",
         rules_adjust_title: "Обратите внимание, в каких случаях цена может измениться:",
@@ -1816,10 +2138,48 @@
         area_rate1_sub: "310 ֏ per m²",
         area_rate2_title: "Deep General Cleaning",
         area_rate2_sub: "1 000 ֏ per m²",
-        area_rate3_title: "Post-Renovation Cleaning",
-        area_rate3_sub: "Our primary specialty",
-        badge_custom_rate: "Custom Quote",
-        btn_book_house: "Get House Cleaning Quote",
+        area_rate3_title: "Post-Renovation & Construction Cleaning",
+        area_rate3_sub: "Standard window washing included",
+        area_rate3_val: "from 1 000 ֏",
+        renov_card_incl: "Construction dust removal, room detailing & standard windows",
+        renov_card_note: "📌 Exact cost calculated individually and confirmed before work begins — zero unexpected fees!",
+        srv_renov_rate: "from 1 000 ֏/m²",
+        srv_renov_notice: "📌 Exact cost calculated individually and confirmed before work begins — zero unexpected fees!",
+        srv_sofa_rate: "from 800 ֏",
+        srv_sofa_notice: "🚗 Minimum standalone order — 10 000 ֏",
+        furniture_header_tag: "Professional Upholstery Cleaning",
+        furniture_pricing_title: "Sofa & Upholstery Dry Cleaning",
+        furniture_pricing_sub: "Deep extraction cleaning with professional KÄRCHER machinery at your home",
+        furniture_min_order_badge: "🚗 Min. order — 10 000 ֏",
+        furniture_pricelist_label: "📋 Service Rates:",
+        furniture_pricelist_hint: "Fixed rates",
+        furn_item_1: "Chair (soft cushion seat)",
+        furn_item_1_sub: "seat cushion only",
+        furn_item_2: "Chair (seat and backrest)",
+        furn_item_2_sub: "full soft upholstery",
+        furn_item_3: "Armchair",
+        furn_item_3_sub: "standard upholstered armchair",
+        furn_item_4: "2-Seater Sofa",
+        furn_item_4_sub: "compact straight couch (2 seats)",
+        furn_item_5: "3-Seater Sofa",
+        furn_item_5_sub: "standard straight couch (3 seats)",
+        furn_item_6: "4-Seater Sofa",
+        furn_item_6_sub: "large straight couch (4 seats)",
+        furn_item_7: "Corner / L-Shaped Sofa",
+        furn_item_7_sub: "standard corner sectional",
+        furn_inc_title: "What is included in the price:",
+        furn_inc_1: "Removal of dust, crumbs, and surface dirt.",
+        furn_inc_2: "Deep extraction sanitization of fabric upholstery.",
+        furn_inc_3: "Professional spot-treatment for stubborn stains.",
+        furn_inc_4: "Deep extractor cleaning with KÄRCHER equipment.",
+        furn_inc_5: "Rinsing and neutralizing detergent residues.",
+        furn_notice_title: "Important Clarifications:",
+        furn_notice_1: "Pricing depends on furniture size, upholstery material, and soiling level.",
+        furn_notice_2: "Exact price is agreed upon before work begins — zero surprise fees.",
+        furn_notice_3: "Complete removal of complex or ancient set-in stains is not guaranteed.",
+        furn_notice_4: "Minimum standalone visit order — 10 000 ֏.",
+        furn_btn_book: "Order Furniture Cleaning via Telegram",
+        btn_book_house: "Request House / Renovation Quote",
         rules_rooms_title: "How We Count Rooms in Apartments",
         rules_rooms_desc: "Kitchen, hallways, and one bathroom are already included in the base rate! A combined kitchen-living space (studio layout) counts as one living zone. Balconies or walk-in closets can be added upon request.",
         rules_adjust_title: "Please Note: When Pricing May Adjust",
@@ -2009,6 +2369,22 @@
           msg = "Hello! I would like to book a Deep General Cleaning according to your transparent price list (from 55,000 ֏) with Shine Cleaning (+374 77 442554).";
         } else {
           msg = "Բարև ձեզ, ցանկանում եմ պատվիրել գլխավոր մաքրում Shine Cleaning-ի գնացուցակով (սկսած 55 000 ֏-ից) (+374 77 442554):";
+        }
+      } else if (planType === 'furniture') {
+        if (currentLang === 'ru') {
+          msg = "Здравствуйте! Хочу заказать химчистку мягкой мебели KÄRCHER (от 800 ֏ / мин. заказ 10 000 ֏) в Shine Cleaning (+374 77 442554).";
+        } else if (currentLang === 'en') {
+          msg = "Hello! I would like to book KÄRCHER Upholstery & Furniture Dry Cleaning (from 800 ֏ / min. order 10,000 ֏) with Shine Cleaning (+374 77 442554).";
+        } else {
+          msg = "Բարև ձեզ, ցանկանում եմ պատվիրել փափուկ կահույքի KÄRCHER քիմմաքրում Shine Cleaning-ում (սկսած 800 ֏-ից / նվազագույն պատվեր 10 000 ֏) (+374 77 442554):";
+        }
+      } else if (planType === 'renovation') {
+        if (currentLang === 'ru') {
+          msg = "Здравствуйте! Хочу заказать уборку после ремонта и строительства (от 1 000 ֏/м² с мытьем окон) в Shine Cleaning (+374 77 442554).";
+        } else if (currentLang === 'en') {
+          msg = "Hello! I would like to book Post-Construction & Renovation Cleaning (from 1,000 ֏/m² including windows) with Shine Cleaning (+374 77 442554).";
+        } else {
+          msg = "Բարև ձեզ, ցանկանում եմ պատվիրել վերանորոգումից հետո մաքրում (սկսած 1 000 ֏/մ²-ից՝ պատուհանների լվացումով) Shine Cleaning-ում (+374 77 442554):";
         }
       } else {
         if (currentLang === 'ru') {
